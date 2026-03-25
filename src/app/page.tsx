@@ -7,6 +7,7 @@ import { StateGrid } from '@/components/sections/StateGrid';
 import { HowItWorks } from '@/components/sections/HowItWorks';
 import { FAQSection } from '@/components/sections/FAQSection';
 import { BottomBannerCTA } from '@/components/cta/BottomBannerCTA';
+import { AnimatedStats } from '@/components/sections/AnimatedStats';
 import { homepageFAQs } from '@/data/faqs';
 
 export const metadata = generatePageMetadata({
@@ -25,12 +26,6 @@ export const metadata = generatePageMetadata({
     'Hawaii solar',
   ],
 });
-
-const stats = [
-  { label: 'States', value: '4' },
-  { label: 'Tax Credit', value: '30%' },
-  { label: 'Savings', value: '$28K–$65K' },
-];
 
 export default async function HomePage() {
   return (
@@ -64,18 +59,7 @@ export default async function HomePage() {
           </div>
 
           {/* Stats Row */}
-          <div className="mx-auto mt-16 grid max-w-xl grid-cols-3 gap-6 sm:gap-10">
-            {stats.map((stat) => (
-              <div key={stat.label}>
-                <p className="text-3xl font-bold text-amber-400 sm:text-4xl">
-                  {stat.value}
-                </p>
-                <p className="mt-1 text-sm font-medium text-gray-400 sm:text-base">
-                  {stat.label}
-                </p>
-              </div>
-            ))}
-          </div>
+          <AnimatedStats />
         </div>
       </section>
 
