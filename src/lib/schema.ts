@@ -1,4 +1,4 @@
-import { SITE_URL, SITE_NAME, PHONE_NUMBER } from './utils';
+import { SITE_URL, SITE_NAME } from './utils';
 
 export function organizationSchema() {
   return {
@@ -9,15 +9,7 @@ export function organizationSchema() {
     url: SITE_URL,
     logo: `${SITE_URL}/logo.png`,
     description: 'Compare solar panel costs, find top-rated installers, and discover solar incentives in Idaho, California, Texas, and Hawaii.',
-    telephone: PHONE_NUMBER,
     sameAs: [],
-    contactPoint: {
-      '@type': 'ContactPoint',
-      telephone: PHONE_NUMBER,
-      contactType: 'customer service',
-      areaServed: 'US',
-      availableLanguage: 'English',
-    },
   };
 }
 

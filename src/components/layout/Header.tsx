@@ -2,7 +2,6 @@
 
 import { useState, useRef, useEffect } from 'react';
 import Link from 'next/link';
-import { PHONE_NUMBER } from '@/lib/utils';
 
 interface DropdownItem {
   label: string;
@@ -31,14 +30,6 @@ const energyDropdown: NavDropdown = {
     { label: 'Battery Storage', href: '/energy-storage/', description: 'Home battery & backup power solutions' },
   ],
 };
-
-function PhoneIcon({ className }: { className?: string }) {
-  return (
-    <svg className={className} fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" aria-hidden="true">
-      <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
-    </svg>
-  );
-}
 
 function LightningBoltLogo() {
   return (
@@ -190,8 +181,6 @@ export function Header() {
     };
   }, [mobileMenuOpen]);
 
-  const phoneDigits = PHONE_NUMBER.replace(/\D/g, '');
-
   return (
     <header
       className={`sticky top-0 z-50 bg-white transition-shadow duration-300 ${
@@ -215,16 +204,8 @@ export function Header() {
             </Link>
           </nav>
 
-          {/* Right side: phone + CTA */}
+          {/* Right side: CTA */}
           <div className="hidden lg:flex items-center gap-4">
-            <a
-              href={`tel:+1${phoneDigits}`}
-              className="flex items-center gap-1.5 text-sm font-medium text-gray-600 hover:text-amber-600 transition-colors"
-              aria-label={`Call us at ${PHONE_NUMBER}`}
-            >
-              <PhoneIcon className="h-4 w-4" />
-              <span>{PHONE_NUMBER}</span>
-            </a>
             <Link
               href="/get-quote/"
               className="inline-flex items-center rounded-lg bg-amber-500 px-5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-amber-600 active:bg-amber-700 transition-colors"
@@ -233,15 +214,8 @@ export function Header() {
             </Link>
           </div>
 
-          {/* Mobile: phone icon + hamburger */}
+          {/* Mobile: hamburger */}
           <div className="flex items-center gap-3 lg:hidden">
-            <a
-              href={`tel:+1${phoneDigits}`}
-              className="rounded-lg p-2 text-gray-600 hover:bg-amber-50 hover:text-amber-600 transition-colors"
-              aria-label={`Call us at ${PHONE_NUMBER}`}
-            >
-              <PhoneIcon className="h-5 w-5" />
-            </a>
             <button
               type="button"
               className="rounded-lg p-2 text-gray-600 hover:bg-amber-50 hover:text-amber-600 transition-colors"
@@ -287,13 +261,6 @@ export function Header() {
             >
               Get Free Quote
             </Link>
-            <a
-              href={`tel:+1${phoneDigits}`}
-              className="mt-3 flex w-full items-center justify-center gap-2 rounded-lg border border-gray-300 px-5 py-3 text-base font-medium text-gray-700 hover:bg-gray-50 transition-colors"
-            >
-              <PhoneIcon className="h-5 w-5 text-amber-500" />
-              {PHONE_NUMBER}
-            </a>
           </div>
         </div>
       )}

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { SITE_NAME, PHONE_NUMBER } from '@/lib/utils';
+import { SITE_NAME } from '@/lib/utils';
 
 const solarResources = [
   { label: 'Solar Panel Costs', href: '/solar-panel-cost/' },
@@ -40,17 +40,8 @@ function FooterLogo() {
   );
 }
 
-function PhoneIcon({ className }: { className?: string }) {
-  return (
-    <svg className={className} fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" aria-hidden="true">
-      <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
-    </svg>
-  );
-}
-
 export function Footer() {
   const currentYear = new Date().getFullYear();
-  const phoneDigits = PHONE_NUMBER.replace(/\D/g, '');
 
   return (
     <footer className="bg-gray-900" aria-label="Site footer">
@@ -62,14 +53,6 @@ export function Footer() {
             <p className="mt-4 text-sm leading-relaxed text-gray-400">
               Compare solar panel costs, find trusted installers, and discover incentives across Idaho, California, Texas, and Hawaii. Your guide to going solar.
             </p>
-            <a
-              href={`tel:+1${phoneDigits}`}
-              className="mt-4 inline-flex items-center gap-2 text-sm font-medium text-gray-300 hover:text-amber-400 transition-colors"
-              aria-label={`Call us at ${PHONE_NUMBER}`}
-            >
-              <PhoneIcon className="h-4 w-4 text-amber-500" />
-              {PHONE_NUMBER}
-            </a>
           </div>
 
           {/* Column 2: Solar Resources */}
