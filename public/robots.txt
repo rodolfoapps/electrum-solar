@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://electrum.solar
+
+# Sitemaps
+Sitemap: https://electrum.solar/sitemap.xml

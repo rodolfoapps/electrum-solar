@@ -1,0 +1,616 @@
+{
+  "state": "California",
+  "collected_at": "2025-11-29T22:17:15.353486",
+  "cities": {
+    "Los Angeles": {
+      "total_found": 3,
+      "companies": [
+        {
+          "name": "Green Power Energy",
+          "logo_url": "https://www.solarreviews.com/content/company/18949b38f751c5bd7cb2bf276aae9af099a6/logo/green.power.energy.logo.full.green.and.charcoal.png",
+          "profile_url": "https://www.solarreviews.com/installers/green-power-energy-reviews",
+          "service_area": "Los Angeles",
+          "position": 1,
+          "rating": 4.82,
+          "review_count": 406,
+          "phone": "(855) 525-1675",
+          "website": "https://www.greenpowerenergy.com",
+          "addresses": [],
+          "years_in_business": "Since 2009",
+          "certifications": []
+        },
+        {
+          "name": "Sunergy Solutions LLC",
+          "logo_url": "https://www.solarreviews.com/content/company/104971aff3735dbc6efcfb408b009f99b8177/logo/sunergy-solutions-llc-logo-8ac76d17.jpeg",
+          "profile_url": "https://www.solarreviews.com/installers/sunergy-solutions-llc-reviews",
+          "service_area": "Los Angeles",
+          "position": 2,
+          "rating": 4.91,
+          "review_count": 146,
+          "phone": "(603) 289-1090",
+          "website": "https://www.sunergysolutionsllc.com",
+          "addresses": [
+            "75 Gilcreast Rd, Londonderry, NH 03053",
+            "31 Coggeshall Ave, Newport, RI 02840",
+            "301 NEWBURY STREET DANVERS PLAZA, Danvers, MA 01923",
+            "735 Main Street, Bangor, ME 04401",
+            "5 West Mendenhall Street Suite 202, Bozeman, MT 59715",
+            "5 Kocher Drive, Bennington, VT 05201",
+            "1411 Siena Ct, Virginia Beach, VA 23456"
+          ],
+          "years_in_business": "Since 2020",
+          "certifications": []
+        },
+        {
+          "name": "Affordable Solar Roof &amp; Air",
+          "logo_url": "https://www.solarreviews.com/content/company/37016f9541a1c0c5810462d7bce8aa3df3af2/logo/affordable-solar-roof-and-air-logo-0c816aa8.jpeg",
+          "profile_url": "https://www.solarreviews.com/installers/affordable-solar-roof-and-air-reviews",
+          "service_area": "Los Angeles",
+          "position": 3,
+          "rating": 4.92,
+          "review_count": 721,
+          "phone": "(800) 515-1254",
+          "website": "https://www.solarroofair.com/",
+          "addresses": [
+            "4914 Creekside Dr., Clearwater, FL 33760",
+            "22955 Tomball Parkway Suite 11, Tomball, TX 77375",
+            "22955 Tomball Pkwy, Tomball, TX 77375",
+            "2020 E. Continental blvd, Dallas, TX 76092",
+            "4914 Creekside Dr, Clearwater, FL 33760"
+          ],
+          "years_in_business": "Since 2012",
+          "certifications": []
+        }
+      ]
+    },
+    "San Diego": {
+      "total_found": 3,
+      "companies": [
+        {
+          "name": "Green Power Energy",
+          "logo_url": "https://www.solarreviews.com/content/company/18949b38f751c5bd7cb2bf276aae9af099a6/logo/green.power.energy.logo.full.green.and.charcoal.png",
+          "profile_url": "https://www.solarreviews.com/installers/green-power-energy-reviews",
+          "service_area": "San Diego",
+          "position": 1,
+          "rating": 4.82,
+          "review_count": 406,
+          "phone": "(855) 525-1675",
+          "website": "https://www.greenpowerenergy.com",
+          "addresses": [],
+          "years_in_business": "Since 2009",
+          "certifications": []
+        },
+        {
+          "name": "Sunergy Solutions LLC",
+          "logo_url": "https://www.solarreviews.com/content/company/104971aff3735dbc6efcfb408b009f99b8177/logo/sunergy-solutions-llc-logo-8ac76d17.jpeg",
+          "profile_url": "https://www.solarreviews.com/installers/sunergy-solutions-llc-reviews",
+          "service_area": "San Diego",
+          "position": 2,
+          "rating": 4.91,
+          "review_count": 146,
+          "phone": "(603) 289-1090",
+          "website": "https://www.sunergysolutionsllc.com",
+          "addresses": [
+            "75 Gilcreast Rd, Londonderry, NH 03053",
+            "31 Coggeshall Ave, Newport, RI 02840",
+            "301 NEWBURY STREET DANVERS PLAZA, Danvers, MA 01923",
+            "735 Main Street, Bangor, ME 04401",
+            "5 West Mendenhall Street Suite 202, Bozeman, MT 59715",
+            "5 Kocher Drive, Bennington, VT 05201",
+            "1411 Siena Ct, Virginia Beach, VA 23456"
+          ],
+          "years_in_business": "Since 2020",
+          "certifications": []
+        },
+        {
+          "name": "Affordable Solar Roof &amp; Air",
+          "logo_url": "https://www.solarreviews.com/content/company/37016f9541a1c0c5810462d7bce8aa3df3af2/logo/affordable-solar-roof-and-air-logo-0c816aa8.jpeg",
+          "profile_url": "https://www.solarreviews.com/installers/affordable-solar-roof-and-air-reviews",
+          "service_area": "San Diego",
+          "position": 3,
+          "rating": 4.92,
+          "review_count": 721,
+          "phone": "(800) 515-1254",
+          "website": "https://www.solarroofair.com/",
+          "addresses": [
+            "4914 Creekside Dr., Clearwater, FL 33760",
+            "22955 Tomball Parkway Suite 11, Tomball, TX 77375",
+            "22955 Tomball Pkwy, Tomball, TX 77375",
+            "2020 E. Continental blvd, Dallas, TX 76092",
+            "4914 Creekside Dr, Clearwater, FL 33760"
+          ],
+          "years_in_business": "Since 2012",
+          "certifications": []
+        }
+      ]
+    },
+    "San Jose": {
+      "total_found": 3,
+      "companies": [
+        {
+          "name": "Green Power Energy",
+          "logo_url": "https://www.solarreviews.com/content/company/18949b38f751c5bd7cb2bf276aae9af099a6/logo/green.power.energy.logo.full.green.and.charcoal.png",
+          "profile_url": "https://www.solarreviews.com/installers/green-power-energy-reviews",
+          "service_area": "San Jose",
+          "position": 1,
+          "rating": 4.82,
+          "review_count": 406,
+          "phone": "(855) 525-1675",
+          "website": "https://www.greenpowerenergy.com",
+          "addresses": [],
+          "years_in_business": "Since 2009",
+          "certifications": []
+        },
+        {
+          "name": "Sunergy Solutions LLC",
+          "logo_url": "https://www.solarreviews.com/content/company/104971aff3735dbc6efcfb408b009f99b8177/logo/sunergy-solutions-llc-logo-8ac76d17.jpeg",
+          "profile_url": "https://www.solarreviews.com/installers/sunergy-solutions-llc-reviews",
+          "service_area": "San Jose",
+          "position": 2,
+          "rating": 4.91,
+          "review_count": 146,
+          "phone": "(603) 289-1090",
+          "website": "https://www.sunergysolutionsllc.com",
+          "addresses": [
+            "75 Gilcreast Rd, Londonderry, NH 03053",
+            "31 Coggeshall Ave, Newport, RI 02840",
+            "301 NEWBURY STREET DANVERS PLAZA, Danvers, MA 01923",
+            "735 Main Street, Bangor, ME 04401",
+            "5 West Mendenhall Street Suite 202, Bozeman, MT 59715",
+            "5 Kocher Drive, Bennington, VT 05201",
+            "1411 Siena Ct, Virginia Beach, VA 23456"
+          ],
+          "years_in_business": "Since 2020",
+          "certifications": []
+        },
+        {
+          "name": "Affordable Solar Roof &amp; Air",
+          "logo_url": "https://www.solarreviews.com/content/company/37016f9541a1c0c5810462d7bce8aa3df3af2/logo/affordable-solar-roof-and-air-logo-0c816aa8.jpeg",
+          "profile_url": "https://www.solarreviews.com/installers/affordable-solar-roof-and-air-reviews",
+          "service_area": "San Jose",
+          "position": 3,
+          "rating": 4.92,
+          "review_count": 721,
+          "phone": "(800) 515-1254",
+          "website": "https://www.solarroofair.com/",
+          "addresses": [
+            "4914 Creekside Dr., Clearwater, FL 33760",
+            "22955 Tomball Parkway Suite 11, Tomball, TX 77375",
+            "22955 Tomball Pkwy, Tomball, TX 77375",
+            "2020 E. Continental blvd, Dallas, TX 76092",
+            "4914 Creekside Dr, Clearwater, FL 33760"
+          ],
+          "years_in_business": "Since 2012",
+          "certifications": []
+        }
+      ]
+    },
+    "San Francisco": {
+      "total_found": 3,
+      "companies": [
+        {
+          "name": "Green Power Energy",
+          "logo_url": "https://www.solarreviews.com/content/company/18949b38f751c5bd7cb2bf276aae9af099a6/logo/green.power.energy.logo.full.green.and.charcoal.png",
+          "profile_url": "https://www.solarreviews.com/installers/green-power-energy-reviews",
+          "service_area": "San Francisco",
+          "position": 1,
+          "rating": 4.82,
+          "review_count": 406,
+          "phone": "(855) 525-1675",
+          "website": "https://www.greenpowerenergy.com",
+          "addresses": [],
+          "years_in_business": "Since 2009",
+          "certifications": []
+        },
+        {
+          "name": "Sunergy Solutions LLC",
+          "logo_url": "https://www.solarreviews.com/content/company/104971aff3735dbc6efcfb408b009f99b8177/logo/sunergy-solutions-llc-logo-8ac76d17.jpeg",
+          "profile_url": "https://www.solarreviews.com/installers/sunergy-solutions-llc-reviews",
+          "service_area": "San Francisco",
+          "position": 2,
+          "rating": 4.91,
+          "review_count": 146,
+          "phone": "(603) 289-1090",
+          "website": "https://www.sunergysolutionsllc.com",
+          "addresses": [
+            "75 Gilcreast Rd, Londonderry, NH 03053",
+            "31 Coggeshall Ave, Newport, RI 02840",
+            "301 NEWBURY STREET DANVERS PLAZA, Danvers, MA 01923",
+            "735 Main Street, Bangor, ME 04401",
+            "5 West Mendenhall Street Suite 202, Bozeman, MT 59715",
+            "5 Kocher Drive, Bennington, VT 05201",
+            "1411 Siena Ct, Virginia Beach, VA 23456"
+          ],
+          "years_in_business": "Since 2020",
+          "certifications": []
+        },
+        {
+          "name": "Affordable Solar Roof &amp; Air",
+          "logo_url": "https://www.solarreviews.com/content/company/37016f9541a1c0c5810462d7bce8aa3df3af2/logo/affordable-solar-roof-and-air-logo-0c816aa8.jpeg",
+          "profile_url": "https://www.solarreviews.com/installers/affordable-solar-roof-and-air-reviews",
+          "service_area": "San Francisco",
+          "position": 3,
+          "rating": 4.92,
+          "review_count": 721,
+          "phone": "(800) 515-1254",
+          "website": "https://www.solarroofair.com/",
+          "addresses": [
+            "4914 Creekside Dr., Clearwater, FL 33760",
+            "22955 Tomball Parkway Suite 11, Tomball, TX 77375",
+            "22955 Tomball Pkwy, Tomball, TX 77375",
+            "2020 E. Continental blvd, Dallas, TX 76092",
+            "4914 Creekside Dr, Clearwater, FL 33760"
+          ],
+          "years_in_business": "Since 2012",
+          "certifications": []
+        }
+      ]
+    },
+    "Fresno": {
+      "total_found": 3,
+      "companies": [
+        {
+          "name": "Green Power Energy",
+          "logo_url": "https://www.solarreviews.com/content/company/18949b38f751c5bd7cb2bf276aae9af099a6/logo/green.power.energy.logo.full.green.and.charcoal.png",
+          "profile_url": "https://www.solarreviews.com/installers/green-power-energy-reviews",
+          "service_area": "Fresno",
+          "position": 1,
+          "rating": 4.82,
+          "review_count": 406,
+          "phone": "(855) 525-1675",
+          "website": "https://www.greenpowerenergy.com",
+          "addresses": [],
+          "years_in_business": "Since 2009",
+          "certifications": []
+        },
+        {
+          "name": "Sunergy Solutions LLC",
+          "logo_url": "https://www.solarreviews.com/content/company/104971aff3735dbc6efcfb408b009f99b8177/logo/sunergy-solutions-llc-logo-8ac76d17.jpeg",
+          "profile_url": "https://www.solarreviews.com/installers/sunergy-solutions-llc-reviews",
+          "service_area": "Fresno",
+          "position": 2,
+          "rating": 4.91,
+          "review_count": 146,
+          "phone": "(603) 289-1090",
+          "website": "https://www.sunergysolutionsllc.com",
+          "addresses": [
+            "75 Gilcreast Rd, Londonderry, NH 03053",
+            "31 Coggeshall Ave, Newport, RI 02840",
+            "301 NEWBURY STREET DANVERS PLAZA, Danvers, MA 01923",
+            "735 Main Street, Bangor, ME 04401",
+            "5 West Mendenhall Street Suite 202, Bozeman, MT 59715",
+            "5 Kocher Drive, Bennington, VT 05201",
+            "1411 Siena Ct, Virginia Beach, VA 23456"
+          ],
+          "years_in_business": "Since 2020",
+          "certifications": []
+        },
+        {
+          "name": "Affordable Solar Roof &amp; Air",
+          "logo_url": "https://www.solarreviews.com/content/company/37016f9541a1c0c5810462d7bce8aa3df3af2/logo/affordable-solar-roof-and-air-logo-0c816aa8.jpeg",
+          "profile_url": "https://www.solarreviews.com/installers/affordable-solar-roof-and-air-reviews",
+          "service_area": "Fresno",
+          "position": 3,
+          "rating": 4.92,
+          "review_count": 721,
+          "phone": "(800) 515-1254",
+          "website": "https://www.solarroofair.com/",
+          "addresses": [
+            "4914 Creekside Dr., Clearwater, FL 33760",
+            "22955 Tomball Parkway Suite 11, Tomball, TX 77375",
+            "22955 Tomball Pkwy, Tomball, TX 77375",
+            "2020 E. Continental blvd, Dallas, TX 76092",
+            "4914 Creekside Dr, Clearwater, FL 33760"
+          ],
+          "years_in_business": "Since 2012",
+          "certifications": []
+        }
+      ]
+    },
+    "Sacramento": {
+      "total_found": 3,
+      "companies": [
+        {
+          "name": "Green Power Energy",
+          "logo_url": "https://www.solarreviews.com/content/company/18949b38f751c5bd7cb2bf276aae9af099a6/logo/green.power.energy.logo.full.green.and.charcoal.png",
+          "profile_url": "https://www.solarreviews.com/installers/green-power-energy-reviews",
+          "service_area": "Sacramento",
+          "position": 1,
+          "rating": 4.82,
+          "review_count": 406,
+          "phone": "(855) 525-1675",
+          "website": "https://www.greenpowerenergy.com",
+          "addresses": [],
+          "years_in_business": "Since 2009",
+          "certifications": []
+        },
+        {
+          "name": "Sunergy Solutions LLC",
+          "logo_url": "https://www.solarreviews.com/content/company/104971aff3735dbc6efcfb408b009f99b8177/logo/sunergy-solutions-llc-logo-8ac76d17.jpeg",
+          "profile_url": "https://www.solarreviews.com/installers/sunergy-solutions-llc-reviews",
+          "service_area": "Sacramento",
+          "position": 2,
+          "rating": 4.91,
+          "review_count": 146,
+          "phone": "(603) 289-1090",
+          "website": "https://www.sunergysolutionsllc.com",
+          "addresses": [
+            "75 Gilcreast Rd, Londonderry, NH 03053",
+            "31 Coggeshall Ave, Newport, RI 02840",
+            "301 NEWBURY STREET DANVERS PLAZA, Danvers, MA 01923",
+            "735 Main Street, Bangor, ME 04401",
+            "5 West Mendenhall Street Suite 202, Bozeman, MT 59715",
+            "5 Kocher Drive, Bennington, VT 05201",
+            "1411 Siena Ct, Virginia Beach, VA 23456"
+          ],
+          "years_in_business": "Since 2020",
+          "certifications": []
+        },
+        {
+          "name": "Affordable Solar Roof &amp; Air",
+          "logo_url": "https://www.solarreviews.com/content/company/37016f9541a1c0c5810462d7bce8aa3df3af2/logo/affordable-solar-roof-and-air-logo-0c816aa8.jpeg",
+          "profile_url": "https://www.solarreviews.com/installers/affordable-solar-roof-and-air-reviews",
+          "service_area": "Sacramento",
+          "position": 3,
+          "rating": 4.92,
+          "review_count": 721,
+          "phone": "(800) 515-1254",
+          "website": "https://www.solarroofair.com/",
+          "addresses": [
+            "4914 Creekside Dr., Clearwater, FL 33760",
+            "22955 Tomball Parkway Suite 11, Tomball, TX 77375",
+            "22955 Tomball Pkwy, Tomball, TX 77375",
+            "2020 E. Continental blvd, Dallas, TX 76092",
+            "4914 Creekside Dr, Clearwater, FL 33760"
+          ],
+          "years_in_business": "Since 2012",
+          "certifications": []
+        }
+      ]
+    },
+    "Long Beach": {
+      "total_found": 3,
+      "companies": [
+        {
+          "name": "Green Power Energy",
+          "logo_url": "https://www.solarreviews.com/content/company/18949b38f751c5bd7cb2bf276aae9af099a6/logo/green.power.energy.logo.full.green.and.charcoal.png",
+          "profile_url": "https://www.solarreviews.com/installers/green-power-energy-reviews",
+          "service_area": "Long Beach",
+          "position": 1,
+          "rating": 4.82,
+          "review_count": 406,
+          "phone": "(855) 525-1675",
+          "website": "https://www.greenpowerenergy.com",
+          "addresses": [],
+          "years_in_business": "Since 2009",
+          "certifications": []
+        },
+        {
+          "name": "Sunergy Solutions LLC",
+          "logo_url": "https://www.solarreviews.com/content/company/104971aff3735dbc6efcfb408b009f99b8177/logo/sunergy-solutions-llc-logo-8ac76d17.jpeg",
+          "profile_url": "https://www.solarreviews.com/installers/sunergy-solutions-llc-reviews",
+          "service_area": "Long Beach",
+          "position": 2,
+          "rating": 4.91,
+          "review_count": 146,
+          "phone": "(603) 289-1090",
+          "website": "https://www.sunergysolutionsllc.com",
+          "addresses": [
+            "75 Gilcreast Rd, Londonderry, NH 03053",
+            "31 Coggeshall Ave, Newport, RI 02840",
+            "301 NEWBURY STREET DANVERS PLAZA, Danvers, MA 01923",
+            "735 Main Street, Bangor, ME 04401",
+            "5 West Mendenhall Street Suite 202, Bozeman, MT 59715",
+            "5 Kocher Drive, Bennington, VT 05201",
+            "1411 Siena Ct, Virginia Beach, VA 23456"
+          ],
+          "years_in_business": "Since 2020",
+          "certifications": []
+        },
+        {
+          "name": "Affordable Solar Roof &amp; Air",
+          "logo_url": "https://www.solarreviews.com/content/company/37016f9541a1c0c5810462d7bce8aa3df3af2/logo/affordable-solar-roof-and-air-logo-0c816aa8.jpeg",
+          "profile_url": "https://www.solarreviews.com/installers/affordable-solar-roof-and-air-reviews",
+          "service_area": "Long Beach",
+          "position": 3,
+          "rating": 4.92,
+          "review_count": 721,
+          "phone": "(800) 515-1254",
+          "website": "https://www.solarroofair.com/",
+          "addresses": [
+            "4914 Creekside Dr., Clearwater, FL 33760",
+            "22955 Tomball Parkway Suite 11, Tomball, TX 77375",
+            "22955 Tomball Pkwy, Tomball, TX 77375",
+            "2020 E. Continental blvd, Dallas, TX 76092",
+            "4914 Creekside Dr, Clearwater, FL 33760"
+          ],
+          "years_in_business": "Since 2012",
+          "certifications": []
+        }
+      ]
+    },
+    "Oakland": {
+      "total_found": 3,
+      "companies": [
+        {
+          "name": "Green Power Energy",
+          "logo_url": "https://www.solarreviews.com/content/company/18949b38f751c5bd7cb2bf276aae9af099a6/logo/green.power.energy.logo.full.green.and.charcoal.png",
+          "profile_url": "https://www.solarreviews.com/installers/green-power-energy-reviews",
+          "service_area": "Oakland",
+          "position": 1,
+          "rating": 4.82,
+          "review_count": 406,
+          "phone": "(855) 525-1675",
+          "website": "https://www.greenpowerenergy.com",
+          "addresses": [],
+          "years_in_business": "Since 2009",
+          "certifications": []
+        },
+        {
+          "name": "Sunergy Solutions LLC",
+          "logo_url": "https://www.solarreviews.com/content/company/104971aff3735dbc6efcfb408b009f99b8177/logo/sunergy-solutions-llc-logo-8ac76d17.jpeg",
+          "profile_url": "https://www.solarreviews.com/installers/sunergy-solutions-llc-reviews",
+          "service_area": "Oakland",
+          "position": 2,
+          "rating": 4.91,
+          "review_count": 146,
+          "phone": "(603) 289-1090",
+          "website": "https://www.sunergysolutionsllc.com",
+          "addresses": [
+            "75 Gilcreast Rd, Londonderry, NH 03053",
+            "31 Coggeshall Ave, Newport, RI 02840",
+            "301 NEWBURY STREET DANVERS PLAZA, Danvers, MA 01923",
+            "735 Main Street, Bangor, ME 04401",
+            "5 West Mendenhall Street Suite 202, Bozeman, MT 59715",
+            "5 Kocher Drive, Bennington, VT 05201",
+            "1411 Siena Ct, Virginia Beach, VA 23456"
+          ],
+          "years_in_business": "Since 2020",
+          "certifications": []
+        },
+        {
+          "name": "Affordable Solar Roof &amp; Air",
+          "logo_url": "https://www.solarreviews.com/content/company/37016f9541a1c0c5810462d7bce8aa3df3af2/logo/affordable-solar-roof-and-air-logo-0c816aa8.jpeg",
+          "profile_url": "https://www.solarreviews.com/installers/affordable-solar-roof-and-air-reviews",
+          "service_area": "Oakland",
+          "position": 3,
+          "rating": 4.92,
+          "review_count": 721,
+          "phone": "(800) 515-1254",
+          "website": "https://www.solarroofair.com/",
+          "addresses": [
+            "4914 Creekside Dr., Clearwater, FL 33760",
+            "22955 Tomball Parkway Suite 11, Tomball, TX 77375",
+            "22955 Tomball Pkwy, Tomball, TX 77375",
+            "2020 E. Continental blvd, Dallas, TX 76092",
+            "4914 Creekside Dr, Clearwater, FL 33760"
+          ],
+          "years_in_business": "Since 2012",
+          "certifications": []
+        }
+      ]
+    },
+    "Bakersfield": {
+      "total_found": 3,
+      "companies": [
+        {
+          "name": "Green Power Energy",
+          "logo_url": "https://www.solarreviews.com/content/company/18949b38f751c5bd7cb2bf276aae9af099a6/logo/green.power.energy.logo.full.green.and.charcoal.png",
+          "profile_url": "https://www.solarreviews.com/installers/green-power-energy-reviews",
+          "service_area": "Bakersfield",
+          "position": 1,
+          "rating": 4.82,
+          "review_count": 406,
+          "phone": "(855) 525-1675",
+          "website": "https://www.greenpowerenergy.com",
+          "addresses": [],
+          "years_in_business": "Since 2009",
+          "certifications": []
+        },
+        {
+          "name": "Sunergy Solutions LLC",
+          "logo_url": "https://www.solarreviews.com/content/company/104971aff3735dbc6efcfb408b009f99b8177/logo/sunergy-solutions-llc-logo-8ac76d17.jpeg",
+          "profile_url": "https://www.solarreviews.com/installers/sunergy-solutions-llc-reviews",
+          "service_area": "Bakersfield",
+          "position": 2,
+          "rating": 4.91,
+          "review_count": 146,
+          "phone": "(603) 289-1090",
+          "website": "https://www.sunergysolutionsllc.com",
+          "addresses": [
+            "75 Gilcreast Rd, Londonderry, NH 03053",
+            "31 Coggeshall Ave, Newport, RI 02840",
+            "301 NEWBURY STREET DANVERS PLAZA, Danvers, MA 01923",
+            "735 Main Street, Bangor, ME 04401",
+            "5 West Mendenhall Street Suite 202, Bozeman, MT 59715",
+            "5 Kocher Drive, Bennington, VT 05201",
+            "1411 Siena Ct, Virginia Beach, VA 23456"
+          ],
+          "years_in_business": "Since 2020",
+          "certifications": []
+        },
+        {
+          "name": "Affordable Solar Roof &amp; Air",
+          "logo_url": "https://www.solarreviews.com/content/company/37016f9541a1c0c5810462d7bce8aa3df3af2/logo/affordable-solar-roof-and-air-logo-0c816aa8.jpeg",
+          "profile_url": "https://www.solarreviews.com/installers/affordable-solar-roof-and-air-reviews",
+          "service_area": "Bakersfield",
+          "position": 3,
+          "rating": 4.92,
+          "review_count": 721,
+          "phone": "(800) 515-1254",
+          "website": "https://www.solarroofair.com/",
+          "addresses": [
+            "4914 Creekside Dr., Clearwater, FL 33760",
+            "22955 Tomball Parkway Suite 11, Tomball, TX 77375",
+            "22955 Tomball Pkwy, Tomball, TX 77375",
+            "2020 E. Continental blvd, Dallas, TX 76092",
+            "4914 Creekside Dr, Clearwater, FL 33760"
+          ],
+          "years_in_business": "Since 2012",
+          "certifications": []
+        }
+      ]
+    },
+    "Anaheim": {
+      "total_found": 3,
+      "companies": [
+        {
+          "name": "Green Power Energy",
+          "logo_url": "https://www.solarreviews.com/content/company/18949b38f751c5bd7cb2bf276aae9af099a6/logo/green.power.energy.logo.full.green.and.charcoal.png",
+          "profile_url": "https://www.solarreviews.com/installers/green-power-energy-reviews",
+          "service_area": "Anaheim",
+          "position": 1,
+          "rating": 4.82,
+          "review_count": 406,
+          "phone": "(855) 525-1675",
+          "website": "https://www.greenpowerenergy.com",
+          "addresses": [],
+          "years_in_business": "Since 2009",
+          "certifications": []
+        },
+        {
+          "name": "Sunergy Solutions LLC",
+          "logo_url": "https://www.solarreviews.com/content/company/104971aff3735dbc6efcfb408b009f99b8177/logo/sunergy-solutions-llc-logo-8ac76d17.jpeg",
+          "profile_url": "https://www.solarreviews.com/installers/sunergy-solutions-llc-reviews",
+          "service_area": "Anaheim",
+          "position": 2,
+          "rating": 4.91,
+          "review_count": 146,
+          "phone": "(603) 289-1090",
+          "website": "https://www.sunergysolutionsllc.com",
+          "addresses": [
+            "75 Gilcreast Rd, Londonderry, NH 03053",
+            "31 Coggeshall Ave, Newport, RI 02840",
+            "301 NEWBURY STREET DANVERS PLAZA, Danvers, MA 01923",
+            "735 Main Street, Bangor, ME 04401",
+            "5 West Mendenhall Street Suite 202, Bozeman, MT 59715",
+            "5 Kocher Drive, Bennington, VT 05201",
+            "1411 Siena Ct, Virginia Beach, VA 23456"
+          ],
+          "years_in_business": "Since 2020",
+          "certifications": []
+        },
+        {
+          "name": "Affordable Solar Roof &amp; Air",
+          "logo_url": "https://www.solarreviews.com/content/company/37016f9541a1c0c5810462d7bce8aa3df3af2/logo/affordable-solar-roof-and-air-logo-0c816aa8.jpeg",
+          "profile_url": "https://www.solarreviews.com/installers/affordable-solar-roof-and-air-reviews",
+          "service_area": "Anaheim",
+          "position": 3,
+          "rating": 4.92,
+          "review_count": 721,
+          "phone": "(800) 515-1254",
+          "website": "https://www.solarroofair.com/",
+          "addresses": [
+            "4914 Creekside Dr., Clearwater, FL 33760",
+            "22955 Tomball Parkway Suite 11, Tomball, TX 77375",
+            "22955 Tomball Pkwy, Tomball, TX 77375",
+            "2020 E. Continental blvd, Dallas, TX 76092",
+            "4914 Creekside Dr, Clearwater, FL 33760"
+          ],
+          "years_in_business": "Since 2012",
+          "certifications": []
+        }
+      ]
+    }
+  }
+}

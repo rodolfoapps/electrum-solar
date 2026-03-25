@@ -1,0 +1,544 @@
+{
+  "state": "Hawaii",
+  "collected_at": "2025-11-29T23:14:46.860728",
+  "cities": {
+    "Honolulu": {
+      "total_found": 3,
+      "companies": [
+        {
+          "name": "Green Power Energy",
+          "logo_url": "https://www.solarreviews.com/content/company/18949b38f751c5bd7cb2bf276aae9af099a6/logo/green.power.energy.logo.full.green.and.charcoal.png",
+          "profile_url": "https://www.solarreviews.com/installers/green-power-energy-reviews",
+          "service_area": "Honolulu",
+          "position": 1,
+          "rating": 4.82,
+          "review_count": 406,
+          "phone": "(855) 525-1675",
+          "website": "https://www.greenpowerenergy.com",
+          "addresses": [],
+          "years_in_business": "Since 2009",
+          "certifications": []
+        },
+        {
+          "name": "Sunergy Solutions LLC",
+          "logo_url": "https://www.solarreviews.com/content/company/104971aff3735dbc6efcfb408b009f99b8177/logo/sunergy-solutions-llc-logo-8ac76d17.jpeg",
+          "profile_url": "https://www.solarreviews.com/installers/sunergy-solutions-llc-reviews",
+          "service_area": "Honolulu",
+          "position": 2,
+          "rating": 4.91,
+          "review_count": 146,
+          "phone": "(603) 289-1090",
+          "website": "https://www.sunergysolutionsllc.com",
+          "addresses": [
+            "75 Gilcreast Rd, Londonderry, NH 03053",
+            "31 Coggeshall Ave, Newport, RI 02840",
+            "301 NEWBURY STREET DANVERS PLAZA, Danvers, MA 01923",
+            "735 Main Street, Bangor, ME 04401",
+            "5 West Mendenhall Street Suite 202, Bozeman, MT 59715",
+            "5 Kocher Drive, Bennington, VT 05201",
+            "1411 Siena Ct, Virginia Beach, VA 23456"
+          ],
+          "years_in_business": "Since 2020",
+          "certifications": []
+        },
+        {
+          "name": "Affordable Solar Roof &amp; Air",
+          "logo_url": "https://www.solarreviews.com/content/company/37016f9541a1c0c5810462d7bce8aa3df3af2/logo/affordable-solar-roof-and-air-logo-0c816aa8.jpeg",
+          "profile_url": "https://www.solarreviews.com/installers/affordable-solar-roof-and-air-reviews",
+          "service_area": "Honolulu",
+          "position": 3,
+          "rating": 4.92,
+          "review_count": 721,
+          "phone": "(800) 515-1254",
+          "website": "https://www.solarroofair.com/",
+          "addresses": [
+            "4914 Creekside Dr., Clearwater, FL 33760",
+            "22955 Tomball Parkway Suite 11, Tomball, TX 77375",
+            "22955 Tomball Pkwy, Tomball, TX 77375",
+            "2020 E. Continental blvd, Dallas, TX 76092",
+            "4914 Creekside Dr, Clearwater, FL 33760"
+          ],
+          "years_in_business": "Since 2012",
+          "certifications": []
+        }
+      ]
+    },
+    "East Honolulu": {
+      "total_found": 3,
+      "companies": [
+        {
+          "name": "Pacific Energy, LLC.",
+          "logo_url": "https://www.solarreviews.com/content/company/59630d04ce6a9e250c02326658dfb028ed75/logo/Pacific Energy Logo.png",
+          "profile_url": "https://www.solarreviews.com/installers/pacific-energy,-llc.-reviews",
+          "service_area": "Hawaii",
+          "position": 1,
+          "rating": 4.75,
+          "review_count": 64,
+          "phone": "(855) 525-1675",
+          "website": "https://www.facebook.com/SolarReviewsusa",
+          "addresses": [
+            "410 Koloa St, Kahului, HI 96732"
+          ],
+          "years_in_business": "Since 2010",
+          "certifications": []
+        },
+        {
+          "name": "Rising Sun Solar - Kauai",
+          "logo_url": "https://www.solarreviews.com/content/company/99627b40d9e2af635ea78402fa525664ce25/logo/RSS-SR5.jpg",
+          "profile_url": "https://www.solarreviews.com/installers/rising-sun-solar---kauai-reviews",
+          "service_area": "Hawaii",
+          "position": 2,
+          "rating": 4.55,
+          "review_count": 24,
+          "phone": "808-575-2202",
+          "website": "",
+          "addresses": [
+            "1520 Haleukana St. Warehouse 2, Lihue, HI 96766"
+          ],
+          "years_in_business": "Since 1984",
+          "certifications": []
+        },
+        {
+          "name": "SolarTech Industries",
+          "logo_url": "https://www.solarreviews.com/content/company/37417b892bdbc1c034aa2f58801894684d1fb/logo/Blue-Solar-Tech-Industries-Logo.jpg",
+          "profile_url": "https://www.solarreviews.com/installers/solartech-industries-reviews",
+          "service_area": "Hawaii",
+          "position": 3,
+          "rating": 4.5,
+          "review_count": 10,
+          "phone": "8087848891",
+          "website": "https://www.solartechindustries.com",
+          "addresses": [
+            "1164 Bishop Street Suite 609, Honolulu, HI 96813"
+          ],
+          "years_in_business": "Since 2013",
+          "certifications": []
+        }
+      ]
+    },
+    "Pearl City": {
+      "total_found": 3,
+      "companies": [
+        {
+          "name": "Pacific Energy, LLC.",
+          "logo_url": "https://www.solarreviews.com/content/company/59630d04ce6a9e250c02326658dfb028ed75/logo/Pacific Energy Logo.png",
+          "profile_url": "https://www.solarreviews.com/installers/pacific-energy,-llc.-reviews",
+          "service_area": "Hawaii",
+          "position": 1,
+          "rating": 4.75,
+          "review_count": 64,
+          "phone": "(855) 525-1675",
+          "website": "https://www.facebook.com/SolarReviewsusa",
+          "addresses": [
+            "410 Koloa St, Kahului, HI 96732"
+          ],
+          "years_in_business": "Since 2010",
+          "certifications": []
+        },
+        {
+          "name": "Rising Sun Solar - Kauai",
+          "logo_url": "https://www.solarreviews.com/content/company/99627b40d9e2af635ea78402fa525664ce25/logo/RSS-SR5.jpg",
+          "profile_url": "https://www.solarreviews.com/installers/rising-sun-solar---kauai-reviews",
+          "service_area": "Hawaii",
+          "position": 2,
+          "rating": 4.55,
+          "review_count": 24,
+          "phone": "808-575-2202",
+          "website": "",
+          "addresses": [
+            "1520 Haleukana St. Warehouse 2, Lihue, HI 96766"
+          ],
+          "years_in_business": "Since 1984",
+          "certifications": []
+        },
+        {
+          "name": "SolarTech Industries",
+          "logo_url": "https://www.solarreviews.com/content/company/37417b892bdbc1c034aa2f58801894684d1fb/logo/Blue-Solar-Tech-Industries-Logo.jpg",
+          "profile_url": "https://www.solarreviews.com/installers/solartech-industries-reviews",
+          "service_area": "Hawaii",
+          "position": 3,
+          "rating": 4.5,
+          "review_count": 10,
+          "phone": "8087848891",
+          "website": "https://www.solartechindustries.com",
+          "addresses": [
+            "1164 Bishop Street Suite 609, Honolulu, HI 96813"
+          ],
+          "years_in_business": "Since 2013",
+          "certifications": []
+        }
+      ]
+    },
+    "Hilo": {
+      "total_found": 3,
+      "companies": [
+        {
+          "name": "Pacific Energy, LLC.",
+          "logo_url": "https://www.solarreviews.com/content/company/59630d04ce6a9e250c02326658dfb028ed75/logo/Pacific Energy Logo.png",
+          "profile_url": "https://www.solarreviews.com/installers/pacific-energy,-llc.-reviews",
+          "service_area": "Hawaii",
+          "position": 1,
+          "rating": 4.75,
+          "review_count": 64,
+          "phone": "(855) 525-1675",
+          "website": "https://www.facebook.com/SolarReviewsusa",
+          "addresses": [
+            "410 Koloa St, Kahului, HI 96732"
+          ],
+          "years_in_business": "Since 2010",
+          "certifications": []
+        },
+        {
+          "name": "Rising Sun Solar - Kauai",
+          "logo_url": "https://www.solarreviews.com/content/company/99627b40d9e2af635ea78402fa525664ce25/logo/RSS-SR5.jpg",
+          "profile_url": "https://www.solarreviews.com/installers/rising-sun-solar---kauai-reviews",
+          "service_area": "Hawaii",
+          "position": 2,
+          "rating": 4.55,
+          "review_count": 24,
+          "phone": "808-575-2202",
+          "website": "",
+          "addresses": [
+            "1520 Haleukana St. Warehouse 2, Lihue, HI 96766"
+          ],
+          "years_in_business": "Since 1984",
+          "certifications": []
+        },
+        {
+          "name": "SolarTech Industries",
+          "logo_url": "https://www.solarreviews.com/content/company/37417b892bdbc1c034aa2f58801894684d1fb/logo/Blue-Solar-Tech-Industries-Logo.jpg",
+          "profile_url": "https://www.solarreviews.com/installers/solartech-industries-reviews",
+          "service_area": "Hawaii",
+          "position": 3,
+          "rating": 4.5,
+          "review_count": 10,
+          "phone": "8087848891",
+          "website": "https://www.solartechindustries.com",
+          "addresses": [
+            "1164 Bishop Street Suite 609, Honolulu, HI 96813"
+          ],
+          "years_in_business": "Since 2013",
+          "certifications": []
+        }
+      ]
+    },
+    "Kailua": {
+      "total_found": 3,
+      "companies": [
+        {
+          "name": "Pacific Energy, LLC.",
+          "logo_url": "https://www.solarreviews.com/content/company/59630d04ce6a9e250c02326658dfb028ed75/logo/Pacific Energy Logo.png",
+          "profile_url": "https://www.solarreviews.com/installers/pacific-energy,-llc.-reviews",
+          "service_area": "Hawaii",
+          "position": 1,
+          "rating": 4.75,
+          "review_count": 64,
+          "phone": "(855) 525-1675",
+          "website": "https://www.facebook.com/SolarReviewsusa",
+          "addresses": [
+            "410 Koloa St, Kahului, HI 96732"
+          ],
+          "years_in_business": "Since 2010",
+          "certifications": []
+        },
+        {
+          "name": "Rising Sun Solar - Kauai",
+          "logo_url": "https://www.solarreviews.com/content/company/99627b40d9e2af635ea78402fa525664ce25/logo/RSS-SR5.jpg",
+          "profile_url": "https://www.solarreviews.com/installers/rising-sun-solar---kauai-reviews",
+          "service_area": "Hawaii",
+          "position": 2,
+          "rating": 4.55,
+          "review_count": 24,
+          "phone": "808-575-2202",
+          "website": "",
+          "addresses": [
+            "1520 Haleukana St. Warehouse 2, Lihue, HI 96766"
+          ],
+          "years_in_business": "Since 1984",
+          "certifications": []
+        },
+        {
+          "name": "SolarTech Industries",
+          "logo_url": "https://www.solarreviews.com/content/company/37417b892bdbc1c034aa2f58801894684d1fb/logo/Blue-Solar-Tech-Industries-Logo.jpg",
+          "profile_url": "https://www.solarreviews.com/installers/solartech-industries-reviews",
+          "service_area": "Hawaii",
+          "position": 3,
+          "rating": 4.5,
+          "review_count": 10,
+          "phone": "8087848891",
+          "website": "https://www.solartechindustries.com",
+          "addresses": [
+            "1164 Bishop Street Suite 609, Honolulu, HI 96813"
+          ],
+          "years_in_business": "Since 2013",
+          "certifications": []
+        }
+      ]
+    },
+    "Waipahu": {
+      "total_found": 3,
+      "companies": [
+        {
+          "name": "Pacific Energy, LLC.",
+          "logo_url": "https://www.solarreviews.com/content/company/59630d04ce6a9e250c02326658dfb028ed75/logo/Pacific Energy Logo.png",
+          "profile_url": "https://www.solarreviews.com/installers/pacific-energy,-llc.-reviews",
+          "service_area": "Hawaii",
+          "position": 1,
+          "rating": 4.75,
+          "review_count": 64,
+          "phone": "(855) 525-1675",
+          "website": "https://www.facebook.com/SolarReviewsusa",
+          "addresses": [
+            "410 Koloa St, Kahului, HI 96732"
+          ],
+          "years_in_business": "Since 2010",
+          "certifications": []
+        },
+        {
+          "name": "Rising Sun Solar - Kauai",
+          "logo_url": "https://www.solarreviews.com/content/company/99627b40d9e2af635ea78402fa525664ce25/logo/RSS-SR5.jpg",
+          "profile_url": "https://www.solarreviews.com/installers/rising-sun-solar---kauai-reviews",
+          "service_area": "Hawaii",
+          "position": 2,
+          "rating": 4.55,
+          "review_count": 24,
+          "phone": "808-575-2202",
+          "website": "",
+          "addresses": [
+            "1520 Haleukana St. Warehouse 2, Lihue, HI 96766"
+          ],
+          "years_in_business": "Since 1984",
+          "certifications": []
+        },
+        {
+          "name": "SolarTech Industries",
+          "logo_url": "https://www.solarreviews.com/content/company/37417b892bdbc1c034aa2f58801894684d1fb/logo/Blue-Solar-Tech-Industries-Logo.jpg",
+          "profile_url": "https://www.solarreviews.com/installers/solartech-industries-reviews",
+          "service_area": "Hawaii",
+          "position": 3,
+          "rating": 4.5,
+          "review_count": 10,
+          "phone": "8087848891",
+          "website": "https://www.solartechindustries.com",
+          "addresses": [
+            "1164 Bishop Street Suite 609, Honolulu, HI 96813"
+          ],
+          "years_in_business": "Since 2013",
+          "certifications": []
+        }
+      ]
+    },
+    "Kaneohe": {
+      "total_found": 3,
+      "companies": [
+        {
+          "name": "Pacific Energy, LLC.",
+          "logo_url": "https://www.solarreviews.com/content/company/59630d04ce6a9e250c02326658dfb028ed75/logo/Pacific Energy Logo.png",
+          "profile_url": "https://www.solarreviews.com/installers/pacific-energy,-llc.-reviews",
+          "service_area": "Hawaii",
+          "position": 1,
+          "rating": 4.75,
+          "review_count": 64,
+          "phone": "(855) 525-1675",
+          "website": "https://www.facebook.com/SolarReviewsusa",
+          "addresses": [
+            "410 Koloa St, Kahului, HI 96732"
+          ],
+          "years_in_business": "Since 2010",
+          "certifications": []
+        },
+        {
+          "name": "Rising Sun Solar - Kauai",
+          "logo_url": "https://www.solarreviews.com/content/company/99627b40d9e2af635ea78402fa525664ce25/logo/RSS-SR5.jpg",
+          "profile_url": "https://www.solarreviews.com/installers/rising-sun-solar---kauai-reviews",
+          "service_area": "Hawaii",
+          "position": 2,
+          "rating": 4.55,
+          "review_count": 24,
+          "phone": "808-575-2202",
+          "website": "",
+          "addresses": [
+            "1520 Haleukana St. Warehouse 2, Lihue, HI 96766"
+          ],
+          "years_in_business": "Since 1984",
+          "certifications": []
+        },
+        {
+          "name": "SolarTech Industries",
+          "logo_url": "https://www.solarreviews.com/content/company/37417b892bdbc1c034aa2f58801894684d1fb/logo/Blue-Solar-Tech-Industries-Logo.jpg",
+          "profile_url": "https://www.solarreviews.com/installers/solartech-industries-reviews",
+          "service_area": "Hawaii",
+          "position": 3,
+          "rating": 4.5,
+          "review_count": 10,
+          "phone": "8087848891",
+          "website": "https://www.solartechindustries.com",
+          "addresses": [
+            "1164 Bishop Street Suite 609, Honolulu, HI 96813"
+          ],
+          "years_in_business": "Since 2013",
+          "certifications": []
+        }
+      ]
+    },
+    "Mililani": {
+      "total_found": 3,
+      "companies": [
+        {
+          "name": "Pacific Energy, LLC.",
+          "logo_url": "https://www.solarreviews.com/content/company/59630d04ce6a9e250c02326658dfb028ed75/logo/Pacific Energy Logo.png",
+          "profile_url": "https://www.solarreviews.com/installers/pacific-energy,-llc.-reviews",
+          "service_area": "Hawaii",
+          "position": 1,
+          "rating": 4.75,
+          "review_count": 64,
+          "phone": "(855) 525-1675",
+          "website": "https://www.facebook.com/SolarReviewsusa",
+          "addresses": [
+            "410 Koloa St, Kahului, HI 96732"
+          ],
+          "years_in_business": "Since 2010",
+          "certifications": []
+        },
+        {
+          "name": "Rising Sun Solar - Kauai",
+          "logo_url": "https://www.solarreviews.com/content/company/99627b40d9e2af635ea78402fa525664ce25/logo/RSS-SR5.jpg",
+          "profile_url": "https://www.solarreviews.com/installers/rising-sun-solar---kauai-reviews",
+          "service_area": "Hawaii",
+          "position": 2,
+          "rating": 4.55,
+          "review_count": 24,
+          "phone": "808-575-2202",
+          "website": "",
+          "addresses": [
+            "1520 Haleukana St. Warehouse 2, Lihue, HI 96766"
+          ],
+          "years_in_business": "Since 1984",
+          "certifications": []
+        },
+        {
+          "name": "SolarTech Industries",
+          "logo_url": "https://www.solarreviews.com/content/company/37417b892bdbc1c034aa2f58801894684d1fb/logo/Blue-Solar-Tech-Industries-Logo.jpg",
+          "profile_url": "https://www.solarreviews.com/installers/solartech-industries-reviews",
+          "service_area": "Hawaii",
+          "position": 3,
+          "rating": 4.5,
+          "review_count": 10,
+          "phone": "8087848891",
+          "website": "https://www.solartechindustries.com",
+          "addresses": [
+            "1164 Bishop Street Suite 609, Honolulu, HI 96813"
+          ],
+          "years_in_business": "Since 2013",
+          "certifications": []
+        }
+      ]
+    },
+    "Kahului": {
+      "total_found": 3,
+      "companies": [
+        {
+          "name": "Pacific Energy, LLC.",
+          "logo_url": "https://www.solarreviews.com/content/company/59630d04ce6a9e250c02326658dfb028ed75/logo/Pacific Energy Logo.png",
+          "profile_url": "https://www.solarreviews.com/installers/pacific-energy,-llc.-reviews",
+          "service_area": "Hawaii",
+          "position": 1,
+          "rating": 4.75,
+          "review_count": 64,
+          "phone": "(855) 525-1675",
+          "website": "https://www.facebook.com/SolarReviewsusa",
+          "addresses": [
+            "410 Koloa St, Kahului, HI 96732"
+          ],
+          "years_in_business": "Since 2010",
+          "certifications": []
+        },
+        {
+          "name": "Rising Sun Solar - Kauai",
+          "logo_url": "https://www.solarreviews.com/content/company/99627b40d9e2af635ea78402fa525664ce25/logo/RSS-SR5.jpg",
+          "profile_url": "https://www.solarreviews.com/installers/rising-sun-solar---kauai-reviews",
+          "service_area": "Hawaii",
+          "position": 2,
+          "rating": 4.55,
+          "review_count": 24,
+          "phone": "808-575-2202",
+          "website": "",
+          "addresses": [
+            "1520 Haleukana St. Warehouse 2, Lihue, HI 96766"
+          ],
+          "years_in_business": "Since 1984",
+          "certifications": []
+        },
+        {
+          "name": "SolarTech Industries",
+          "logo_url": "https://www.solarreviews.com/content/company/37417b892bdbc1c034aa2f58801894684d1fb/logo/Blue-Solar-Tech-Industries-Logo.jpg",
+          "profile_url": "https://www.solarreviews.com/installers/solartech-industries-reviews",
+          "service_area": "Hawaii",
+          "position": 3,
+          "rating": 4.5,
+          "review_count": 10,
+          "phone": "8087848891",
+          "website": "https://www.solartechindustries.com",
+          "addresses": [
+            "1164 Bishop Street Suite 609, Honolulu, HI 96813"
+          ],
+          "years_in_business": "Since 2013",
+          "certifications": []
+        }
+      ]
+    },
+    "Ewa Beach": {
+      "total_found": 3,
+      "companies": [
+        {
+          "name": "Pacific Energy, LLC.",
+          "logo_url": "https://www.solarreviews.com/content/company/59630d04ce6a9e250c02326658dfb028ed75/logo/Pacific Energy Logo.png",
+          "profile_url": "https://www.solarreviews.com/installers/pacific-energy,-llc.-reviews",
+          "service_area": "Hawaii",
+          "position": 1,
+          "rating": 4.75,
+          "review_count": 64,
+          "phone": "(855) 525-1675",
+          "website": "https://www.facebook.com/SolarReviewsusa",
+          "addresses": [
+            "410 Koloa St, Kahului, HI 96732"
+          ],
+          "years_in_business": "Since 2010",
+          "certifications": []
+        },
+        {
+          "name": "Rising Sun Solar - Kauai",
+          "logo_url": "https://www.solarreviews.com/content/company/99627b40d9e2af635ea78402fa525664ce25/logo/RSS-SR5.jpg",
+          "profile_url": "https://www.solarreviews.com/installers/rising-sun-solar---kauai-reviews",
+          "service_area": "Hawaii",
+          "position": 2,
+          "rating": 4.55,
+          "review_count": 24,
+          "phone": "808-575-2202",
+          "website": "",
+          "addresses": [
+            "1520 Haleukana St. Warehouse 2, Lihue, HI 96766"
+          ],
+          "years_in_business": "Since 1984",
+          "certifications": []
+        },
+        {
+          "name": "SolarTech Industries",
+          "logo_url": "https://www.solarreviews.com/content/company/37417b892bdbc1c034aa2f58801894684d1fb/logo/Blue-Solar-Tech-Industries-Logo.jpg",
+          "profile_url": "https://www.solarreviews.com/installers/solartech-industries-reviews",
+          "service_area": "Hawaii",
+          "position": 3,
+          "rating": 4.5,
+          "review_count": 10,
+          "phone": "8087848891",
+          "website": "https://www.solartechindustries.com",
+          "addresses": [
+            "1164 Bishop Street Suite 609, Honolulu, HI 96813"
+          ],
+          "years_in_business": "Since 2013",
+          "certifications": []
+        }
+      ]
+    }
+  }
+}

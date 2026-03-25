@@ -1,0 +1,574 @@
+{
+  "state": "Idaho",
+  "collected_at": "2025-11-29T23:13:28.722417",
+  "cities": {
+    "Boise": {
+      "total_found": 3,
+      "companies": [
+        {
+          "name": "Green Power Energy",
+          "logo_url": "https://www.solarreviews.com/content/company/18949b38f751c5bd7cb2bf276aae9af099a6/logo/green.power.energy.logo.full.green.and.charcoal.png",
+          "profile_url": "https://www.solarreviews.com/installers/green-power-energy-reviews",
+          "service_area": "Boise",
+          "position": 1,
+          "rating": 4.82,
+          "review_count": 406,
+          "phone": "(855) 525-1675",
+          "website": "https://www.greenpowerenergy.com",
+          "addresses": [],
+          "years_in_business": "Since 2009",
+          "certifications": []
+        },
+        {
+          "name": "Sunergy Solutions LLC",
+          "logo_url": "https://www.solarreviews.com/content/company/104971aff3735dbc6efcfb408b009f99b8177/logo/sunergy-solutions-llc-logo-8ac76d17.jpeg",
+          "profile_url": "https://www.solarreviews.com/installers/sunergy-solutions-llc-reviews",
+          "service_area": "Boise",
+          "position": 2,
+          "rating": 4.91,
+          "review_count": 146,
+          "phone": "(603) 289-1090",
+          "website": "https://www.sunergysolutionsllc.com",
+          "addresses": [
+            "75 Gilcreast Rd, Londonderry, NH 03053",
+            "31 Coggeshall Ave, Newport, RI 02840",
+            "301 NEWBURY STREET DANVERS PLAZA, Danvers, MA 01923",
+            "735 Main Street, Bangor, ME 04401",
+            "5 West Mendenhall Street Suite 202, Bozeman, MT 59715",
+            "5 Kocher Drive, Bennington, VT 05201",
+            "1411 Siena Ct, Virginia Beach, VA 23456"
+          ],
+          "years_in_business": "Since 2020",
+          "certifications": []
+        },
+        {
+          "name": "Affordable Solar Roof &amp; Air",
+          "logo_url": "https://www.solarreviews.com/content/company/37016f9541a1c0c5810462d7bce8aa3df3af2/logo/affordable-solar-roof-and-air-logo-0c816aa8.jpeg",
+          "profile_url": "https://www.solarreviews.com/installers/affordable-solar-roof-and-air-reviews",
+          "service_area": "Boise",
+          "position": 3,
+          "rating": 4.92,
+          "review_count": 721,
+          "phone": "(800) 515-1254",
+          "website": "https://www.solarroofair.com/",
+          "addresses": [
+            "4914 Creekside Dr., Clearwater, FL 33760",
+            "22955 Tomball Parkway Suite 11, Tomball, TX 77375",
+            "22955 Tomball Pkwy, Tomball, TX 77375",
+            "2020 E. Continental blvd, Dallas, TX 76092",
+            "4914 Creekside Dr, Clearwater, FL 33760"
+          ],
+          "years_in_business": "Since 2012",
+          "certifications": []
+        }
+      ]
+    },
+    "Meridian": {
+      "total_found": 3,
+      "companies": [
+        {
+          "name": "Green Power Energy",
+          "logo_url": "https://www.solarreviews.com/content/company/18949b38f751c5bd7cb2bf276aae9af099a6/logo/green.power.energy.logo.full.green.and.charcoal.png",
+          "profile_url": "https://www.solarreviews.com/installers/green-power-energy-reviews",
+          "service_area": "Meridian",
+          "position": 1,
+          "rating": 4.82,
+          "review_count": 406,
+          "phone": "(855) 525-1675",
+          "website": "https://www.greenpowerenergy.com",
+          "addresses": [],
+          "years_in_business": "Since 2009",
+          "certifications": []
+        },
+        {
+          "name": "Sunergy Solutions LLC",
+          "logo_url": "https://www.solarreviews.com/content/company/104971aff3735dbc6efcfb408b009f99b8177/logo/sunergy-solutions-llc-logo-8ac76d17.jpeg",
+          "profile_url": "https://www.solarreviews.com/installers/sunergy-solutions-llc-reviews",
+          "service_area": "Meridian",
+          "position": 2,
+          "rating": 4.91,
+          "review_count": 146,
+          "phone": "(603) 289-1090",
+          "website": "https://www.sunergysolutionsllc.com",
+          "addresses": [
+            "75 Gilcreast Rd, Londonderry, NH 03053",
+            "31 Coggeshall Ave, Newport, RI 02840",
+            "301 NEWBURY STREET DANVERS PLAZA, Danvers, MA 01923",
+            "735 Main Street, Bangor, ME 04401",
+            "5 West Mendenhall Street Suite 202, Bozeman, MT 59715",
+            "5 Kocher Drive, Bennington, VT 05201",
+            "1411 Siena Ct, Virginia Beach, VA 23456"
+          ],
+          "years_in_business": "Since 2020",
+          "certifications": []
+        },
+        {
+          "name": "Affordable Solar Roof &amp; Air",
+          "logo_url": "https://www.solarreviews.com/content/company/37016f9541a1c0c5810462d7bce8aa3df3af2/logo/affordable-solar-roof-and-air-logo-0c816aa8.jpeg",
+          "profile_url": "https://www.solarreviews.com/installers/affordable-solar-roof-and-air-reviews",
+          "service_area": "Meridian",
+          "position": 3,
+          "rating": 4.92,
+          "review_count": 721,
+          "phone": "(800) 515-1254",
+          "website": "https://www.solarroofair.com/",
+          "addresses": [
+            "4914 Creekside Dr., Clearwater, FL 33760",
+            "22955 Tomball Parkway Suite 11, Tomball, TX 77375",
+            "22955 Tomball Pkwy, Tomball, TX 77375",
+            "2020 E. Continental blvd, Dallas, TX 76092",
+            "4914 Creekside Dr, Clearwater, FL 33760"
+          ],
+          "years_in_business": "Since 2012",
+          "certifications": []
+        }
+      ]
+    },
+    "Nampa": {
+      "total_found": 3,
+      "companies": [
+        {
+          "name": "Green Power Energy",
+          "logo_url": "https://www.solarreviews.com/content/company/18949b38f751c5bd7cb2bf276aae9af099a6/logo/green.power.energy.logo.full.green.and.charcoal.png",
+          "profile_url": "https://www.solarreviews.com/installers/green-power-energy-reviews",
+          "service_area": "Nampa",
+          "position": 1,
+          "rating": 4.82,
+          "review_count": 406,
+          "phone": "(855) 525-1675",
+          "website": "https://www.greenpowerenergy.com",
+          "addresses": [],
+          "years_in_business": "Since 2009",
+          "certifications": []
+        },
+        {
+          "name": "Sunergy Solutions LLC",
+          "logo_url": "https://www.solarreviews.com/content/company/104971aff3735dbc6efcfb408b009f99b8177/logo/sunergy-solutions-llc-logo-8ac76d17.jpeg",
+          "profile_url": "https://www.solarreviews.com/installers/sunergy-solutions-llc-reviews",
+          "service_area": "Nampa",
+          "position": 2,
+          "rating": 4.91,
+          "review_count": 146,
+          "phone": "(603) 289-1090",
+          "website": "https://www.sunergysolutionsllc.com",
+          "addresses": [
+            "75 Gilcreast Rd, Londonderry, NH 03053",
+            "31 Coggeshall Ave, Newport, RI 02840",
+            "301 NEWBURY STREET DANVERS PLAZA, Danvers, MA 01923",
+            "735 Main Street, Bangor, ME 04401",
+            "5 West Mendenhall Street Suite 202, Bozeman, MT 59715",
+            "5 Kocher Drive, Bennington, VT 05201",
+            "1411 Siena Ct, Virginia Beach, VA 23456"
+          ],
+          "years_in_business": "Since 2020",
+          "certifications": []
+        },
+        {
+          "name": "Affordable Solar Roof &amp; Air",
+          "logo_url": "https://www.solarreviews.com/content/company/37016f9541a1c0c5810462d7bce8aa3df3af2/logo/affordable-solar-roof-and-air-logo-0c816aa8.jpeg",
+          "profile_url": "https://www.solarreviews.com/installers/affordable-solar-roof-and-air-reviews",
+          "service_area": "Nampa",
+          "position": 3,
+          "rating": 4.92,
+          "review_count": 721,
+          "phone": "(800) 515-1254",
+          "website": "https://www.solarroofair.com/",
+          "addresses": [
+            "4914 Creekside Dr., Clearwater, FL 33760",
+            "22955 Tomball Parkway Suite 11, Tomball, TX 77375",
+            "22955 Tomball Pkwy, Tomball, TX 77375",
+            "2020 E. Continental blvd, Dallas, TX 76092",
+            "4914 Creekside Dr, Clearwater, FL 33760"
+          ],
+          "years_in_business": "Since 2012",
+          "certifications": []
+        }
+      ]
+    },
+    "Idaho Falls": {
+      "total_found": 3,
+      "companies": [
+        {
+          "name": "Intermountain Wind and Solar",
+          "logo_url": "https://www.solarreviews.com/content/company/56031a960ccb5cc5c7f944120c15447e335/logo/intermountain-wind-and-solar-logo-21e785b6.png",
+          "profile_url": "https://www.solarreviews.com/installers/intermountain-wind-and-solar-reviews",
+          "service_area": "Idaho",
+          "position": 1,
+          "rating": 4.56,
+          "review_count": 208,
+          "phone": "(801) 298-5255",
+          "website": "http://www.intermtnwindandsolar.com",
+          "addresses": [
+            "1830 Airport Way, Boise, ID 83705",
+            "1041 N 950 W, Centerville, UT 84014"
+          ],
+          "years_in_business": "Since 2008",
+          "certifications": []
+        },
+        {
+          "name": "Blue Raven Solar",
+          "logo_url": "https://www.solarreviews.com/content/company/5144406c81a7da2c43714fb5e81bbaf8fcf5/logo/blue-raven.jpg",
+          "profile_url": "https://www.solarreviews.com/installers/blue-raven-solar-reviews",
+          "service_area": "Idaho",
+          "position": 2,
+          "rating": 4.53,
+          "review_count": 1983,
+          "phone": "(844) 442-5029",
+          "website": "https://www.blueravensolar.com",
+          "addresses": [
+            "5319 SW Westgate DR Ste 160, Portland , OR 97221, Portland, OR 97221"
+          ],
+          "years_in_business": "Since 2016",
+          "certifications": []
+        },
+        {
+          "name": "EGT Solar Inc.",
+          "logo_url": "https://www.solarreviews.com/content/company/593580581afe02aa06c367bf27f0f4522b6d/logo/EvenGreenLogo_Color_v6-02 1.png",
+          "profile_url": "https://www.solarreviews.com/installers/egt-solar-inc.-reviews",
+          "service_area": "Idaho",
+          "position": 3,
+          "rating": 4.46,
+          "review_count": 40,
+          "phone": "208-795-5170",
+          "website": "http://www.evengreentechnology.com/",
+          "addresses": [
+            "401 N Main Street, Meridian, ID 83642",
+            "2158 4th Avenue East Suite #2, Twin Falls, ID 83301"
+          ],
+          "years_in_business": "Since 2009",
+          "certifications": []
+        }
+      ]
+    },
+    "Pocatello": {
+      "total_found": 3,
+      "companies": [
+        {
+          "name": "Intermountain Wind and Solar",
+          "logo_url": "https://www.solarreviews.com/content/company/56031a960ccb5cc5c7f944120c15447e335/logo/intermountain-wind-and-solar-logo-21e785b6.png",
+          "profile_url": "https://www.solarreviews.com/installers/intermountain-wind-and-solar-reviews",
+          "service_area": "Idaho",
+          "position": 1,
+          "rating": 4.56,
+          "review_count": 208,
+          "phone": "(801) 298-5255",
+          "website": "http://www.intermtnwindandsolar.com",
+          "addresses": [
+            "1830 Airport Way, Boise, ID 83705",
+            "1041 N 950 W, Centerville, UT 84014"
+          ],
+          "years_in_business": "Since 2008",
+          "certifications": []
+        },
+        {
+          "name": "Blue Raven Solar",
+          "logo_url": "https://www.solarreviews.com/content/company/5144406c81a7da2c43714fb5e81bbaf8fcf5/logo/blue-raven.jpg",
+          "profile_url": "https://www.solarreviews.com/installers/blue-raven-solar-reviews",
+          "service_area": "Idaho",
+          "position": 2,
+          "rating": 4.53,
+          "review_count": 1983,
+          "phone": "(844) 442-5029",
+          "website": "https://www.blueravensolar.com",
+          "addresses": [
+            "5319 SW Westgate DR Ste 160, Portland , OR 97221, Portland, OR 97221"
+          ],
+          "years_in_business": "Since 2016",
+          "certifications": []
+        },
+        {
+          "name": "EGT Solar Inc.",
+          "logo_url": "https://www.solarreviews.com/content/company/593580581afe02aa06c367bf27f0f4522b6d/logo/EvenGreenLogo_Color_v6-02 1.png",
+          "profile_url": "https://www.solarreviews.com/installers/egt-solar-inc.-reviews",
+          "service_area": "Idaho",
+          "position": 3,
+          "rating": 4.46,
+          "review_count": 40,
+          "phone": "208-795-5170",
+          "website": "http://www.evengreentechnology.com/",
+          "addresses": [
+            "401 N Main Street, Meridian, ID 83642",
+            "2158 4th Avenue East Suite #2, Twin Falls, ID 83301"
+          ],
+          "years_in_business": "Since 2009",
+          "certifications": []
+        }
+      ]
+    },
+    "Caldwell": {
+      "total_found": 3,
+      "companies": [
+        {
+          "name": "Intermountain Wind and Solar",
+          "logo_url": "https://www.solarreviews.com/content/company/56031a960ccb5cc5c7f944120c15447e335/logo/intermountain-wind-and-solar-logo-21e785b6.png",
+          "profile_url": "https://www.solarreviews.com/installers/intermountain-wind-and-solar-reviews",
+          "service_area": "Idaho",
+          "position": 1,
+          "rating": 4.56,
+          "review_count": 208,
+          "phone": "(801) 298-5255",
+          "website": "http://www.intermtnwindandsolar.com",
+          "addresses": [
+            "1830 Airport Way, Boise, ID 83705",
+            "1041 N 950 W, Centerville, UT 84014"
+          ],
+          "years_in_business": "Since 2008",
+          "certifications": []
+        },
+        {
+          "name": "Blue Raven Solar",
+          "logo_url": "https://www.solarreviews.com/content/company/5144406c81a7da2c43714fb5e81bbaf8fcf5/logo/blue-raven.jpg",
+          "profile_url": "https://www.solarreviews.com/installers/blue-raven-solar-reviews",
+          "service_area": "Idaho",
+          "position": 2,
+          "rating": 4.53,
+          "review_count": 1983,
+          "phone": "(844) 442-5029",
+          "website": "https://www.blueravensolar.com",
+          "addresses": [
+            "5319 SW Westgate DR Ste 160, Portland , OR 97221, Portland, OR 97221"
+          ],
+          "years_in_business": "Since 2016",
+          "certifications": []
+        },
+        {
+          "name": "EGT Solar Inc.",
+          "logo_url": "https://www.solarreviews.com/content/company/593580581afe02aa06c367bf27f0f4522b6d/logo/EvenGreenLogo_Color_v6-02 1.png",
+          "profile_url": "https://www.solarreviews.com/installers/egt-solar-inc.-reviews",
+          "service_area": "Idaho",
+          "position": 3,
+          "rating": 4.46,
+          "review_count": 40,
+          "phone": "208-795-5170",
+          "website": "http://www.evengreentechnology.com/",
+          "addresses": [
+            "401 N Main Street, Meridian, ID 83642",
+            "2158 4th Avenue East Suite #2, Twin Falls, ID 83301"
+          ],
+          "years_in_business": "Since 2009",
+          "certifications": []
+        }
+      ]
+    },
+    "Coeur Dalene": {
+      "total_found": 3,
+      "companies": [
+        {
+          "name": "Intermountain Wind and Solar",
+          "logo_url": "https://www.solarreviews.com/content/company/56031a960ccb5cc5c7f944120c15447e335/logo/intermountain-wind-and-solar-logo-21e785b6.png",
+          "profile_url": "https://www.solarreviews.com/installers/intermountain-wind-and-solar-reviews",
+          "service_area": "Idaho",
+          "position": 1,
+          "rating": 4.56,
+          "review_count": 208,
+          "phone": "(801) 298-5255",
+          "website": "http://www.intermtnwindandsolar.com",
+          "addresses": [
+            "1830 Airport Way, Boise, ID 83705",
+            "1041 N 950 W, Centerville, UT 84014"
+          ],
+          "years_in_business": "Since 2008",
+          "certifications": []
+        },
+        {
+          "name": "Blue Raven Solar",
+          "logo_url": "https://www.solarreviews.com/content/company/5144406c81a7da2c43714fb5e81bbaf8fcf5/logo/blue-raven.jpg",
+          "profile_url": "https://www.solarreviews.com/installers/blue-raven-solar-reviews",
+          "service_area": "Idaho",
+          "position": 2,
+          "rating": 4.53,
+          "review_count": 1983,
+          "phone": "(844) 442-5029",
+          "website": "https://www.blueravensolar.com",
+          "addresses": [
+            "5319 SW Westgate DR Ste 160, Portland , OR 97221, Portland, OR 97221"
+          ],
+          "years_in_business": "Since 2016",
+          "certifications": []
+        },
+        {
+          "name": "EGT Solar Inc.",
+          "logo_url": "https://www.solarreviews.com/content/company/593580581afe02aa06c367bf27f0f4522b6d/logo/EvenGreenLogo_Color_v6-02 1.png",
+          "profile_url": "https://www.solarreviews.com/installers/egt-solar-inc.-reviews",
+          "service_area": "Idaho",
+          "position": 3,
+          "rating": 4.46,
+          "review_count": 40,
+          "phone": "208-795-5170",
+          "website": "http://www.evengreentechnology.com/",
+          "addresses": [
+            "401 N Main Street, Meridian, ID 83642",
+            "2158 4th Avenue East Suite #2, Twin Falls, ID 83301"
+          ],
+          "years_in_business": "Since 2009",
+          "certifications": []
+        }
+      ]
+    },
+    "Twin Falls": {
+      "total_found": 3,
+      "companies": [
+        {
+          "name": "Intermountain Wind and Solar",
+          "logo_url": "https://www.solarreviews.com/content/company/56031a960ccb5cc5c7f944120c15447e335/logo/intermountain-wind-and-solar-logo-21e785b6.png",
+          "profile_url": "https://www.solarreviews.com/installers/intermountain-wind-and-solar-reviews",
+          "service_area": "Idaho",
+          "position": 1,
+          "rating": 4.56,
+          "review_count": 208,
+          "phone": "(801) 298-5255",
+          "website": "http://www.intermtnwindandsolar.com",
+          "addresses": [
+            "1830 Airport Way, Boise, ID 83705",
+            "1041 N 950 W, Centerville, UT 84014"
+          ],
+          "years_in_business": "Since 2008",
+          "certifications": []
+        },
+        {
+          "name": "Blue Raven Solar",
+          "logo_url": "https://www.solarreviews.com/content/company/5144406c81a7da2c43714fb5e81bbaf8fcf5/logo/blue-raven.jpg",
+          "profile_url": "https://www.solarreviews.com/installers/blue-raven-solar-reviews",
+          "service_area": "Idaho",
+          "position": 2,
+          "rating": 4.53,
+          "review_count": 1983,
+          "phone": "(844) 442-5029",
+          "website": "https://www.blueravensolar.com",
+          "addresses": [
+            "5319 SW Westgate DR Ste 160, Portland , OR 97221, Portland, OR 97221"
+          ],
+          "years_in_business": "Since 2016",
+          "certifications": []
+        },
+        {
+          "name": "EGT Solar Inc.",
+          "logo_url": "https://www.solarreviews.com/content/company/593580581afe02aa06c367bf27f0f4522b6d/logo/EvenGreenLogo_Color_v6-02 1.png",
+          "profile_url": "https://www.solarreviews.com/installers/egt-solar-inc.-reviews",
+          "service_area": "Idaho",
+          "position": 3,
+          "rating": 4.46,
+          "review_count": 40,
+          "phone": "208-795-5170",
+          "website": "http://www.evengreentechnology.com/",
+          "addresses": [
+            "401 N Main Street, Meridian, ID 83642",
+            "2158 4th Avenue East Suite #2, Twin Falls, ID 83301"
+          ],
+          "years_in_business": "Since 2009",
+          "certifications": []
+        }
+      ]
+    },
+    "Post Falls": {
+      "total_found": 3,
+      "companies": [
+        {
+          "name": "Intermountain Wind and Solar",
+          "logo_url": "https://www.solarreviews.com/content/company/56031a960ccb5cc5c7f944120c15447e335/logo/intermountain-wind-and-solar-logo-21e785b6.png",
+          "profile_url": "https://www.solarreviews.com/installers/intermountain-wind-and-solar-reviews",
+          "service_area": "Idaho",
+          "position": 1,
+          "rating": 4.56,
+          "review_count": 208,
+          "phone": "(801) 298-5255",
+          "website": "http://www.intermtnwindandsolar.com",
+          "addresses": [
+            "1830 Airport Way, Boise, ID 83705",
+            "1041 N 950 W, Centerville, UT 84014"
+          ],
+          "years_in_business": "Since 2008",
+          "certifications": []
+        },
+        {
+          "name": "Blue Raven Solar",
+          "logo_url": "https://www.solarreviews.com/content/company/5144406c81a7da2c43714fb5e81bbaf8fcf5/logo/blue-raven.jpg",
+          "profile_url": "https://www.solarreviews.com/installers/blue-raven-solar-reviews",
+          "service_area": "Idaho",
+          "position": 2,
+          "rating": 4.53,
+          "review_count": 1983,
+          "phone": "(844) 442-5029",
+          "website": "https://www.blueravensolar.com",
+          "addresses": [
+            "5319 SW Westgate DR Ste 160, Portland , OR 97221, Portland, OR 97221"
+          ],
+          "years_in_business": "Since 2016",
+          "certifications": []
+        },
+        {
+          "name": "EGT Solar Inc.",
+          "logo_url": "https://www.solarreviews.com/content/company/593580581afe02aa06c367bf27f0f4522b6d/logo/EvenGreenLogo_Color_v6-02 1.png",
+          "profile_url": "https://www.solarreviews.com/installers/egt-solar-inc.-reviews",
+          "service_area": "Idaho",
+          "position": 3,
+          "rating": 4.46,
+          "review_count": 40,
+          "phone": "208-795-5170",
+          "website": "http://www.evengreentechnology.com/",
+          "addresses": [
+            "401 N Main Street, Meridian, ID 83642",
+            "2158 4th Avenue East Suite #2, Twin Falls, ID 83301"
+          ],
+          "years_in_business": "Since 2009",
+          "certifications": []
+        }
+      ]
+    },
+    "Lewiston": {
+      "total_found": 3,
+      "companies": [
+        {
+          "name": "Intermountain Wind and Solar",
+          "logo_url": "https://www.solarreviews.com/content/company/56031a960ccb5cc5c7f944120c15447e335/logo/intermountain-wind-and-solar-logo-21e785b6.png",
+          "profile_url": "https://www.solarreviews.com/installers/intermountain-wind-and-solar-reviews",
+          "service_area": "Idaho",
+          "position": 1,
+          "rating": 4.56,
+          "review_count": 208,
+          "phone": "(801) 298-5255",
+          "website": "http://www.intermtnwindandsolar.com",
+          "addresses": [
+            "1830 Airport Way, Boise, ID 83705",
+            "1041 N 950 W, Centerville, UT 84014"
+          ],
+          "years_in_business": "Since 2008",
+          "certifications": []
+        },
+        {
+          "name": "Blue Raven Solar",
+          "logo_url": "https://www.solarreviews.com/content/company/5144406c81a7da2c43714fb5e81bbaf8fcf5/logo/blue-raven.jpg",
+          "profile_url": "https://www.solarreviews.com/installers/blue-raven-solar-reviews",
+          "service_area": "Idaho",
+          "position": 2,
+          "rating": 4.53,
+          "review_count": 1983,
+          "phone": "(844) 442-5029",
+          "website": "https://www.blueravensolar.com",
+          "addresses": [
+            "5319 SW Westgate DR Ste 160, Portland , OR 97221, Portland, OR 97221"
+          ],
+          "years_in_business": "Since 2016",
+          "certifications": []
+        },
+        {
+          "name": "EGT Solar Inc.",
+          "logo_url": "https://www.solarreviews.com/content/company/593580581afe02aa06c367bf27f0f4522b6d/logo/EvenGreenLogo_Color_v6-02 1.png",
+          "profile_url": "https://www.solarreviews.com/installers/egt-solar-inc.-reviews",
+          "service_area": "Idaho",
+          "position": 3,
+          "rating": 4.46,
+          "review_count": 40,
+          "phone": "208-795-5170",
+          "website": "http://www.evengreentechnology.com/",
+          "addresses": [
+            "401 N Main Street, Meridian, ID 83642",
+            "2158 4th Avenue East Suite #2, Twin Falls, ID 83301"
+          ],
+          "years_in_business": "Since 2009",
+          "certifications": []
+        }
+      ]
+    }
+  }
+}
