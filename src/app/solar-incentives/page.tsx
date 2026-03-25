@@ -15,12 +15,11 @@ export const metadata = generatePageMetadata({
   path: '/solar-incentives/',
   keywords: [
     'solar incentives',
-    'solar tax credit',
     'solar rebates',
-    'federal solar tax credit',
     'state solar incentives',
+    'solar tax credits by state',
     'net metering',
-    'solar ITC',
+    'solar property tax exemption',
   ],
 });
 
@@ -56,18 +55,16 @@ export default function SolarIncentivesPage() {
             Solar Incentives & Tax Credits
           </h1>
           <p className="mt-4 max-w-3xl text-lg leading-relaxed text-gray-600">
-            Going solar is more affordable than ever thanks to generous federal
-            and state incentives. The{' '}
-            <strong>federal Investment Tax Credit (ITC)</strong> lets you deduct{' '}
-            <strong>30%</strong> of your solar system cost from your federal
-            taxes — and many states offer additional credits, rebates, property
-            tax exemptions, and net metering programs that can save you
-            thousands more. Explore the incentives available in Idaho,
-            California, Texas, and Hawaii below.
+            Going solar is more affordable than ever thanks to generous state
+            and local incentives. Many states offer tax credits, rebates,
+            property tax exemptions, and net metering programs that can save
+            you thousands of dollars on your solar installation. Explore the
+            incentives available in Idaho, California, Texas, and Hawaii
+            below.
           </p>
         </section>
 
-        {/* Federal ITC Highlight */}
+        {/* Key Incentives */}
         <section className="py-12">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">
             Key Solar Incentives for 2026
@@ -75,22 +72,23 @@ export default function SolarIncentivesPage() {
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             <div className="rounded-xl border-2 border-amber-200 bg-amber-50 p-6 shadow-sm">
               <h3 className="text-lg font-semibold text-amber-800">
-                30% Federal Tax Credit (ITC)
+                State Tax Credits & Deductions
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-amber-900/80">
-                Deduct 30% of your total solar system cost from your federal
-                income taxes. Available for residential and commercial systems
-                installed through 2032. No cap on the credit amount.
+                Hawaii offers a 35% state tax credit (up to $5,000), one of the
+                most generous in the nation. Idaho offers a state tax deduction.
+                Other states offer property tax exemptions that keep your taxes
+                from rising after installation.
               </p>
             </div>
             <div className="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
               <h3 className="text-lg font-semibold text-gray-900">
-                State Tax Credits
+                Property & Sales Tax Exemptions
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-gray-600">
-                Hawaii offers a 35% state tax credit (up to $5,000), one of the
-                most generous in the nation. Other states offer property tax
-                exemptions that keep your taxes from rising after installation.
+                Texas exempts solar systems from both property and sales taxes.
+                California, Hawaii, and Idaho all offer property tax exemptions
+                that prevent your tax bill from rising after solar installation.
               </p>
             </div>
             <div className="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">

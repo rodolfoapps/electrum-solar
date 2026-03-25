@@ -50,7 +50,7 @@ export async function generateMetadata({ params }: { params: Promise<{ state: st
 
   return generatePageMetadata({
     title: `Solar Incentives in ${cityName}, ${stateData.abbreviation} (2026)`,
-    description: `Explore ${incentiveCount} solar incentives available in ${cityName}, ${stateData.abbreviation}, including the 30% federal ITC and ${stateData.name} state programs, rebates, and tax exemptions. Maximize your savings.`,
+    description: `Explore ${incentiveCount} solar incentives available in ${cityName}, ${stateData.abbreviation}, including ${stateData.name} state programs, rebates, and tax exemptions. Maximize your savings.`,
     path: `/solar-incentives/${stateSlug}/${citySlug}/`,
     keywords: [
       `solar incentives ${cityName} ${stateData.abbreviation}`,
@@ -65,11 +65,11 @@ function getCityIncentiveFAQs(cityName: string, stateAbbrev: string, stateName: 
   return [
     {
       question: `What solar incentives are available in ${cityName}, ${stateAbbrev}?`,
-      answer: `Homeowners in ${cityName}, ${stateAbbrev} can take advantage of the 30% federal Investment Tax Credit (ITC), ${stateName} state incentives, property tax exemptions, and local utility rebates. These programs can reduce the total cost of a solar installation by 30-50%.`,
+      answer: `Homeowners in ${cityName}, ${stateAbbrev} can take advantage of ${stateName} state incentives, property tax exemptions, and local utility rebates. These programs can significantly reduce the total cost of a solar installation.`,
     },
     {
-      question: `How do I claim the federal solar tax credit in ${cityName}?`,
-      answer: `To claim the 30% federal ITC, file IRS Form 5695 with your federal tax return after your solar system is installed. You will need documentation of the total system cost and installation date. The credit applies dollar-for-dollar against your federal tax liability.`,
+      question: `How do I claim solar incentives in ${cityName}?`,
+      answer: `Solar incentives vary by program. State tax credits are typically claimed on your state tax return, while utility rebates may be applied automatically or through an application process. Your solar installer can help identify and claim all available programs.`,
     },
     {
       question: `Does ${cityName} offer net metering for solar panels?`,
@@ -79,7 +79,7 @@ function getCityIncentiveFAQs(cityName: string, stateAbbrev: string, stateName: 
     },
     {
       question: `Can I combine multiple solar incentives in ${cityName}, ${stateAbbrev}?`,
-      answer: `Yes, solar incentives in ${cityName} are stackable. You can claim the 30% federal ITC alongside ${stateName} state incentives, property tax exemptions, and any local utility rebates. Combining these programs maximizes your total savings and shortens the payback period.`,
+      answer: `Yes, solar incentives in ${cityName} are stackable. You can combine ${stateName} state incentives, property tax exemptions, and any local utility rebates. Combining these programs maximizes your total savings and shortens the payback period.`,
     },
   ];
 }
@@ -137,9 +137,8 @@ export default async function SolarIncentivesCityPage({ params }: { params: Prom
             <p className="mt-4 text-lg leading-relaxed text-gray-600">
               Homeowners in {cityName}, {stateData.abbreviation} have access to a variety of solar incentives that
               can dramatically reduce the cost of going solar. Between the{' '}
-              <strong className="text-gray-900">30% federal Investment Tax Credit</strong> and{' '}
               {incentiveData
-                ? `${incentiveData.incentives.length - 1} additional ${stateData.name} state and local programs`
+                ? `${incentiveData.incentives.length} ${stateData.name} state and local programs`
                 : `available ${stateData.name} state programs`}
               , residents can lower their upfront investment by thousands of dollars and shorten their payback
               period significantly.

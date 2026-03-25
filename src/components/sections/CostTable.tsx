@@ -17,10 +17,9 @@ export function CostTable({ stateName, costPerWatt, systemCost, savings25Year, p
 
   const rows = systemSizes.map((size) => {
     const grossCost = Math.round(size * 1000 * costPerWatt * scaleFactor);
-    const afterItc = Math.round(grossCost * 0.7);
     const scaledSavings = Math.round(savings25Year * (size / baselineSize));
 
-    return { size, grossCost, afterItc, savings: scaledSavings };
+    return { size, grossCost, savings: scaledSavings };
   });
 
   return (
@@ -37,8 +36,7 @@ export function CostTable({ stateName, costPerWatt, systemCost, savings25Year, p
           <thead>
             <tr className="bg-gray-50">
               <th className="whitespace-nowrap px-5 py-3 font-semibold text-gray-900">System Size</th>
-              <th className="whitespace-nowrap px-5 py-3 font-semibold text-gray-900">Cost Before ITC</th>
-              <th className="whitespace-nowrap px-5 py-3 font-semibold text-gray-900">Cost After 30% ITC</th>
+              <th className="whitespace-nowrap px-5 py-3 font-semibold text-gray-900">Estimated Cost</th>
               <th className="whitespace-nowrap px-5 py-3 font-semibold text-gray-900">Est. 25-Year Savings</th>
             </tr>
           </thead>
@@ -47,7 +45,6 @@ export function CostTable({ stateName, costPerWatt, systemCost, savings25Year, p
               <tr key={row.size} className={index % 2 === 1 ? 'bg-gray-50/50' : 'bg-white'}>
                 <td className="whitespace-nowrap px-5 py-3 font-medium text-gray-900">{row.size} kW</td>
                 <td className="whitespace-nowrap px-5 py-3 text-gray-600">{formatCurrency(row.grossCost)}</td>
-                <td className="whitespace-nowrap px-5 py-3 font-semibold text-amber-600">{formatCurrency(row.afterItc)}</td>
                 <td className="whitespace-nowrap px-5 py-3 text-green-600 font-medium">{formatCurrency(row.savings)}</td>
               </tr>
             ))}

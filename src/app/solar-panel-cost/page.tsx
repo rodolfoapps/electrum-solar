@@ -77,12 +77,12 @@ export default function SolarPanelCostPage() {
           <div className="grid gap-6 md:grid-cols-3">
             <div className="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
               <h3 className="text-lg font-semibold text-gray-900">
-                Federal Tax Credit
+                State Incentives
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-gray-600">
-                The 30% federal Investment Tax Credit (ITC) reduces your system
-                cost dollar-for-dollar on your federal taxes, saving thousands
-                on every installation.
+                State tax credits, property tax exemptions, and utility rebates
+                can reduce your system cost by thousands of dollars. Check your
+                state&apos;s available programs to maximize savings.
               </p>
             </div>
             <div className="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">

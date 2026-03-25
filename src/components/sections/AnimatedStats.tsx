@@ -11,7 +11,7 @@ interface StatItem {
 
 const stats: StatItem[] = [
   { label: 'States', value: 4 },
-  { label: 'Tax Credit', value: 30, suffix: '%' },
+  { label: 'Year Warranty', value: 25, suffix: '+' },
   { label: 'Savings', prefix: '$', value: 28, suffix: 'K–$65K' },
 ];
 

@@ -1,16 +1,14 @@
 export interface LeadFormData {
+  propertyType: 'Residential' | 'Commercial';
+  fullAddress: string;
+  averageEnergyBill: string;
   firstName: string;
   lastName: string;
-  email: string;
   phone: string;
-  zipCode: string;
-  state?: string;
-  propertyType: 'residential' | 'commercial' | 'nonprofit';
-  roofType?: 'asphalt_shingle' | 'tile' | 'metal' | 'flat' | 'other';
-  monthlyBill?: string;
-  timeline?: 'asap' | '1-3_months' | '3-6_months' | '6-12_months' | 'just_researching';
+  email: string;
+  homeowner: 'Yes' | 'No';
+  projectDescription?: string;
   sourcePage?: string;
-  utmSource?: string;
 }
 
 export interface SolarCompany {

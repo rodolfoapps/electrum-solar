@@ -246,7 +246,7 @@ export default async function EnergyStorageCityPage({ params }: { params: Promis
                     </p>
                   </div>
 
-                  {/* Federal Tax Credit */}
+                  {/* Incentives */}
                   <div className="rounded-xl border border-gray-200 bg-white p-5">
                     <div className="flex items-center gap-3 mb-3">
                       <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-amber-100">
@@ -254,12 +254,11 @@ export default async function EnergyStorageCityPage({ params }: { params: Promis
                           <path strokeLinecap="round" strokeLinejoin="round" d="M9 14.25l6-6m4.5-3.493V21.75l-3.75-1.5-3.75 1.5-3.75-1.5-3.75 1.5V4.757c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0c1.1.128 1.907 1.077 1.907 2.185z" />
                         </svg>
                       </div>
-                      <h3 className="font-semibold text-gray-900">Federal Tax Credit</h3>
+                      <h3 className="font-semibold text-gray-900">State & Local Incentives</h3>
                     </div>
                     <p className="text-sm">
-                      The 30% federal Investment Tax Credit (ITC) applies to battery storage systems too,
-                      not just solar panels. {cityName} homeowners can save thousands — for example, a{' '}
-                      {formatCurrency(10000)} battery effectively costs just {formatCurrency(7000)} after the ITC.
+                      Battery storage systems may qualify for state and local incentives when paired with solar.
+                      {cityName} homeowners should check available programs to reduce their battery investment costs.
                     </p>
                   </div>
                 </div>
@@ -274,8 +273,8 @@ export default async function EnergyStorageCityPage({ params }: { params: Promis
               <p className="mt-3 text-gray-600 leading-relaxed">
                 Home battery prices in {cityName} typically range from{' '}
                 <strong className="text-gray-900">{formatCurrency(5500)} to {formatCurrency(18000)}</strong> before
-                incentives, depending on the system capacity and brand. After the 30% federal tax credit, costs drop to
-                approximately <strong className="text-amber-600">{formatCurrency(3850)} to {formatCurrency(12600)}</strong>.
+                incentives, depending on the system capacity and brand. State programs and utility rebates may further
+                reduce these costs.
               </p>
               <div className="mt-6 overflow-x-auto rounded-xl border border-gray-200">
                 <table className="w-full text-left text-sm">
@@ -283,7 +282,6 @@ export default async function EnergyStorageCityPage({ params }: { params: Promis
                     <tr className="bg-gray-50">
                       <th className="whitespace-nowrap px-5 py-3 font-semibold text-gray-900">Battery System</th>
                       <th className="whitespace-nowrap px-5 py-3 font-semibold text-gray-900">Cost Range</th>
-                      <th className="whitespace-nowrap px-5 py-3 font-semibold text-gray-900">After 30% ITC</th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-gray-100">
@@ -292,10 +290,6 @@ export default async function EnergyStorageCityPage({ params }: { params: Promis
                         <td className="px-5 py-3 font-medium text-gray-900">{battery.name}</td>
                         <td className="whitespace-nowrap px-5 py-3 text-gray-700">
                           {formatCurrency(battery.costRange.min)} - {formatCurrency(battery.costRange.max)}
-                        </td>
-                        <td className="whitespace-nowrap px-5 py-3 text-amber-600 font-semibold">
-                          {formatCurrency(Math.round(battery.costRange.min * 0.7))} -{' '}
-                          {formatCurrency(Math.round(battery.costRange.max * 0.7))}
                         </td>
                       </tr>
                     ))}

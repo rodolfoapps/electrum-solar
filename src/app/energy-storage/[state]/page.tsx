@@ -220,12 +220,11 @@ export default async function EnergyStorageStatePage({ params }: { params: Promi
                           <path strokeLinecap="round" strokeLinejoin="round" d="M9 14.25l6-6m4.5-3.493V21.75l-3.75-1.5-3.75 1.5-3.75-1.5-3.75 1.5V4.757c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0c1.1.128 1.907 1.077 1.907 2.185z" />
                         </svg>
                       </div>
-                      <h3 className="font-semibold text-gray-900">Tax Credit Eligible</h3>
+                      <h3 className="font-semibold text-gray-900">Incentive Eligible</h3>
                     </div>
                     <p className="text-sm">
-                      Battery storage systems qualify for the 30% federal tax credit when paired with solar, reducing
-                      costs by thousands of dollars. A {formatCurrency(10000)} battery effectively costs{' '}
-                      {formatCurrency(7000)} after the ITC.
+                      Battery storage systems may qualify for state and local incentives when paired with solar,
+                      reducing costs by hundreds or thousands of dollars. Check your state programs for details.
                     </p>
                   </div>
                 </div>
@@ -240,8 +239,8 @@ export default async function EnergyStorageStatePage({ params }: { params: Promi
               <p className="mt-3 text-gray-600 leading-relaxed">
                 Home battery prices in {stateData.name} typically range from{' '}
                 <strong className="text-gray-900">{formatCurrency(5500)} to {formatCurrency(18000)}</strong> before
-                incentives, depending on the system capacity and brand. After the 30% federal tax credit, costs drop to
-                approximately <strong className="text-amber-600">{formatCurrency(3850)} to {formatCurrency(12600)}</strong>.
+                incentives, depending on the system capacity and brand. State programs and utility rebates may further
+                reduce these costs.
               </p>
               <div className="mt-6 overflow-x-auto rounded-xl border border-gray-200">
                 <table className="w-full text-left text-sm">
@@ -250,7 +249,6 @@ export default async function EnergyStorageStatePage({ params }: { params: Promi
                       <th className="whitespace-nowrap px-5 py-3 font-semibold text-gray-900">Battery System</th>
                       <th className="whitespace-nowrap px-5 py-3 font-semibold text-gray-900">Capacity</th>
                       <th className="whitespace-nowrap px-5 py-3 font-semibold text-gray-900">Cost Range</th>
-                      <th className="whitespace-nowrap px-5 py-3 font-semibold text-gray-900">After 30% ITC</th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-gray-100">
@@ -260,10 +258,6 @@ export default async function EnergyStorageStatePage({ params }: { params: Promi
                         <td className="whitespace-nowrap px-5 py-3 text-gray-700">{battery.capacity} kWh</td>
                         <td className="whitespace-nowrap px-5 py-3 text-gray-700">
                           {formatCurrency(battery.costRange.min)} - {formatCurrency(battery.costRange.max)}
-                        </td>
-                        <td className="whitespace-nowrap px-5 py-3 text-amber-600 font-semibold">
-                          {formatCurrency(Math.round(battery.costRange.min * 0.7))} -{' '}
-                          {formatCurrency(Math.round(battery.costRange.max * 0.7))}
                         </td>
                       </tr>
                     ))}

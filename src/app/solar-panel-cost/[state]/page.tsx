@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: { params: Promise<{ state: st
   if (!stateData) return {};
   return generatePageMetadata({
     title: `Solar Panel Cost in ${stateData.name} (2026) | Prices & Savings`,
-    description: `Average solar panel cost in ${stateData.name} is $${stateData.avgCostPerWatt.toFixed(2)}/watt. A 6kW system costs ~${formatCurrency(stateData.avgSystemCost)} before the 30% federal tax credit. See full cost breakdown.`,
+    description: `Average solar panel cost in ${stateData.name} is $${stateData.avgCostPerWatt.toFixed(2)}/watt. A 6kW system costs ~${formatCurrency(stateData.avgSystemCost)} before incentives. See full cost breakdown and savings.`,
     path: `/solar-panel-cost/${stateSlug}/`,
     keywords: [`solar panel cost ${stateData.name}`, `solar prices ${stateData.name}`, `${stateData.name} solar installation cost`],
   });
@@ -46,8 +46,6 @@ export default async function SolarPanelCostStatePage({ params }: { params: Prom
     { label: 'Solar Panel Cost', href: '/solar-panel-cost/' },
     { label: stateData.name },
   ];
-
-  const afterItcCost = Math.round(stateData.avgSystemCost * 0.7);
 
   const metrics = [
     { label: 'Cost per Watt', value: `$${stateData.avgCostPerWatt.toFixed(2)}` },
@@ -82,8 +80,7 @@ export default async function SolarPanelCostStatePage({ params }: { params: Prom
               The average solar panel installation in {stateData.name} costs{' '}
               <strong className="text-gray-900">${stateData.avgCostPerWatt.toFixed(2)} per watt</strong>, or about{' '}
               <strong className="text-gray-900">{formatCurrency(stateData.avgSystemCost)}</strong> for a typical 6kW
-              residential system before the 30% federal tax credit. After the ITC, the net cost drops to approximately{' '}
-              <strong className="text-amber-600">{formatCurrency(afterItcCost)}</strong>. Over 25 years, homeowners in{' '}
+              residential system before state and local incentives. Over 25 years, homeowners in{' '}
               {stateData.name} can expect to save an estimated{' '}
               <strong className="text-gray-900">{formatCurrency(stateData.avgSavings25Year)}</strong>, with a payback
               period of around <strong className="text-gray-900">{stateData.avgPaybackYears} years</strong>.
@@ -124,7 +121,7 @@ export default async function SolarPanelCostStatePage({ params }: { params: Prom
                 electricity. {stateData.electricityRate > 0.16
                   ? `This is above the national average of 16 cents/kWh, making solar an especially attractive investment in ${stateData.name}.`
                   : stateData.electricityRate < 0.16
-                    ? `While this is below the national average of 16 cents/kWh, ${stateData.name} homeowners still benefit from solar thanks to the federal tax credit, state incentives, and rising electricity costs.`
+                    ? `While this is below the national average of 16 cents/kWh, ${stateData.name} homeowners still benefit from solar thanks to state incentives, net metering, and rising electricity costs.`
                     : `This matches the national average of 16 cents/kWh. Combined with available incentives, solar remains a strong investment in ${stateData.name}.`}
               </p>
               <p className="mt-3 text-gray-600 leading-relaxed">

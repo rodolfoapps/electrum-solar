@@ -58,7 +58,7 @@ export default function ElectricityRatesPage() {
             <strong>$0.39/kWh</strong> and California at{' '}
             <strong>$0.28/kWh</strong> — see the fastest solar ROI, while
             states like Idaho (<strong>$0.10/kWh</strong>) still benefit thanks
-            to federal tax credits and rising utility prices. Explore the rates
+            to state incentives and rising utility prices. Explore the rates
             and solar potential for each of our focus states below.
           </p>
         </section>
@@ -108,7 +108,7 @@ export default function ElectricityRatesPage() {
           </div>
           <p className="mt-4 text-sm text-gray-500">
             Data reflects 2026 averages for a typical 6kW residential solar
-            system. Savings include the 30% federal tax credit.
+            system. Savings estimates based on current rates and available incentives.
           </p>
         </section>
 

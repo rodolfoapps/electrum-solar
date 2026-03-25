@@ -20,13 +20,6 @@ export const stateIncentives: Record<string, StateIncentiveData> = {
     stateName: 'California',
     incentives: [
       {
-        name: 'Federal Investment Tax Credit (ITC)',
-        type: 'tax_credit',
-        description: 'Deduct 30% of your solar system cost from federal taxes.',
-        value: '30% of system cost',
-        eligibility: 'All residential and commercial installations',
-      },
-      {
         name: 'Net Energy Metering (NEM 3.0)',
         type: 'program',
         description: 'Earn credits for excess solar energy exported to the grid under California\'s updated net metering program.',
@@ -62,13 +55,6 @@ export const stateIncentives: Record<string, StateIncentiveData> = {
     stateSlug: 'hawaii',
     stateName: 'Hawaii',
     incentives: [
-      {
-        name: 'Federal Investment Tax Credit (ITC)',
-        type: 'tax_credit',
-        description: 'Deduct 30% of your solar system cost from federal taxes.',
-        value: '30% of system cost',
-        eligibility: 'All residential and commercial installations',
-      },
       {
         name: 'Hawaii State Tax Credit',
         type: 'tax_credit',
@@ -106,13 +92,6 @@ export const stateIncentives: Record<string, StateIncentiveData> = {
     stateName: 'Idaho',
     incentives: [
       {
-        name: 'Federal Investment Tax Credit (ITC)',
-        type: 'tax_credit',
-        description: 'Deduct 30% of your solar system cost from federal taxes.',
-        value: '30% of system cost',
-        eligibility: 'All residential and commercial installations',
-      },
-      {
         name: 'Idaho State Tax Deduction',
         type: 'tax_credit',
         description: 'Idaho offers a state income tax deduction for residential solar installations.',
@@ -141,13 +120,6 @@ export const stateIncentives: Record<string, StateIncentiveData> = {
     stateSlug: 'texas',
     stateName: 'Texas',
     incentives: [
-      {
-        name: 'Federal Investment Tax Credit (ITC)',
-        type: 'tax_credit',
-        description: 'Deduct 30% of your solar system cost from federal taxes.',
-        value: '30% of system cost',
-        eligibility: 'All residential and commercial installations',
-      },
       {
         name: 'Property Tax Exemption',
         type: 'exemption',

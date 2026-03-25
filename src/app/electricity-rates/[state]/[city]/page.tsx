@@ -140,8 +140,8 @@ export default async function ElectricityRatesCityPage({
               {rateVsNational === 'above'
                 ? `Higher-than-average electricity costs make solar panels a particularly compelling investment for ${cityName} homeowners.`
                 : rateVsNational === 'below'
-                  ? `Even with lower rates, ${cityName} homeowners can benefit from solar through the 30% federal tax credit, state incentives, and protection against future rate increases.`
-                  : `With rates at the national average, solar remains a strong investment in ${cityName}, especially with the 30% federal tax credit and rising rate trends.`}
+                  ? `Even with lower rates, ${cityName} homeowners can benefit from solar through state incentives, net metering, and protection against future rate increases.`
+                  : `With rates at the national average, solar remains a strong investment in ${cityName}, especially with available state incentives and rising rate trends.`}
             </p>
 
             {/* Rate Comparison Cards */}
@@ -285,7 +285,7 @@ export default async function ElectricityRatesCityPage({
                   {rateVsNational === 'above'
                     ? `Because ${cityName}'s electricity rate is above the national average, homeowners here can expect a faster solar payback period. In ${stateData.name}, the typical payback period for a residential solar system is around ${stateData.avgPaybackYears} years. With higher local rates, ${cityName} residents may see even shorter payback timelines, making solar one of the best home investments available.`
                     : rateVsNational === 'below'
-                      ? `Although ${cityName}'s electricity rate is currently below the national average, rates in ${stateData.name} have been trending upward. The typical solar payback period in ${stateData.name} is approximately ${stateData.avgPaybackYears} years. Installing solar now locks in your energy costs for 25+ years, protecting you from future rate increases while benefiting from the 30% federal Investment Tax Credit.`
+                      ? `Although ${cityName}'s electricity rate is currently below the national average, rates in ${stateData.name} have been trending upward. The typical solar payback period in ${stateData.name} is approximately ${stateData.avgPaybackYears} years. Installing solar now locks in your energy costs for 25+ years, protecting you from future rate increases while benefiting from available state incentives.`
                       : `With ${cityName}'s rate near the national average, solar provides solid returns. The typical payback period in ${stateData.name} is around ${stateData.avgPaybackYears} years. Going solar now locks in your energy costs for 25+ years and protects against future rate increases.`}
                 </p>
                 <p>
@@ -301,7 +301,7 @@ export default async function ElectricityRatesCityPage({
                       ? 'good'
                       : 'moderate'}{' '}
                   solar irradiance. Combined with {rateVsNational === 'above' ? 'above-average electricity costs' : 'available incentives'} and
-                  the 30% federal tax credit, solar panels are a smart financial decision for homeowners in {cityName}, {stateData.abbreviation}.
+                  available state incentives, solar panels are a smart financial decision for homeowners in {cityName}, {stateData.abbreviation}.
                 </p>
               </div>
             </section>

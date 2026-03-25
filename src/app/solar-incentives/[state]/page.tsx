@@ -38,7 +38,7 @@ export async function generateMetadata({ params }: { params: Promise<{ state: st
   const incentiveCount = incentiveData?.incentives.length ?? 0;
   return generatePageMetadata({
     title: `Solar Incentives & Tax Credits in ${stateData.name} (2026)`,
-    description: `Discover ${incentiveCount} solar incentives available in ${stateData.name}, including the 30% federal tax credit, state programs, rebates, and exemptions. Maximize your solar savings.`,
+    description: `Discover ${incentiveCount} solar incentives available in ${stateData.name}, including state tax credits, programs, rebates, and exemptions. Maximize your solar savings.`,
     path: `/solar-incentives/${stateSlug}/`,
     keywords: [`solar incentives ${stateData.name}`, `solar tax credit ${stateData.name}`, `${stateData.name} solar rebates`],
   });
@@ -89,9 +89,9 @@ export default async function SolarIncentivesStatePage({ params }: { params: Pro
 
             <p className="mt-4 text-lg leading-relaxed text-gray-600">
               {stateData.name} residents can take advantage of multiple solar incentives to reduce the cost of going
-              solar. Between the 30% federal Investment Tax Credit and{' '}
+              solar. With{' '}
               {incentiveData
-                ? `${incentiveData.incentives.length - 1} additional state and local programs`
+                ? `${incentiveData.incentives.length} state and local programs`
                 : 'available state programs'}
               , homeowners can significantly lower their upfront investment and accelerate their payback period.
             </p>

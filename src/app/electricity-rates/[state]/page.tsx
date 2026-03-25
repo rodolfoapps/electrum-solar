@@ -82,8 +82,8 @@ export default async function ElectricityRatesStatePage({ params }: { params: Pr
               {rateComparison === 'above'
                 ? `Higher electricity costs make solar panels an especially smart investment in ${stateData.name}, as the savings are more significant.`
                 : rateComparison === 'below'
-                  ? `Even with lower rates, ${stateData.name} homeowners benefit from solar through the federal tax credit, rising rate trends, and energy independence.`
-                  : `Solar remains a strong investment in ${stateData.name}, especially with the 30% federal tax credit and rising rate trends.`}
+                  ? `Even with lower rates, ${stateData.name} homeowners benefit from solar through state incentives, rising rate trends, and energy independence.`
+                  : `Solar remains a strong investment in ${stateData.name}, especially with available state incentives and rising rate trends.`}
             </p>
 
             {/* Rate Comparison Cards */}
@@ -196,7 +196,7 @@ export default async function ElectricityRatesStatePage({ params }: { params: Pr
                   {rateComparison === 'above'
                     ? `With ${stateData.name}'s above-average rates, solar panels provide exceptional value. Homeowners typically see faster payback periods and higher lifetime savings compared to states with lower electricity costs. A typical 6kW system in ${stateData.name} can save you ${formatCurrency(stateData.avgSavings25Year)} over 25 years.`
                     : rateComparison === 'below'
-                      ? `While ${stateData.name} enjoys below-average electricity rates today, rates have been trending upward. Solar panels lock in your energy costs for 25+ years, protecting you from future rate increases. With the 30% federal tax credit and available state incentives, the economics still strongly favor going solar.`
+                      ? `While ${stateData.name} enjoys below-average electricity rates today, rates have been trending upward. Solar panels lock in your energy costs for 25+ years, protecting you from future rate increases. With available state incentives and net metering programs, the economics still strongly favor going solar.`
                       : `At the national average, ${stateData.name}'s rates make solar a solid investment. With rates trending upward nationally, going solar now locks in your energy costs and protects against future increases.`}
                 </p>
                 <p>

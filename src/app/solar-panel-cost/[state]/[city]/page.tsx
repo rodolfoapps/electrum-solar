@@ -42,12 +42,10 @@ export default async function SolarPanelCostCityPage({ params }: { params: Promi
   const cityName = getCityNameFromSlug(stateSlug, citySlug);
   if (!stateData || !cityName) notFound();
 
-  const afterItcCost = Math.round(stateData.avgSystemCost * 0.7);
-
   const faqs = [
     {
       question: `How much do solar panels cost in ${cityName}?`,
-      answer: `The average cost of solar panels in ${cityName}, ${stateData.abbreviation} is $${stateData.avgCostPerWatt.toFixed(2)} per watt, or approximately ${formatCurrency(stateData.avgSystemCost)} for a typical 6kW residential system before the 30% federal tax credit. After the ITC, the net cost drops to around ${formatCurrency(afterItcCost)}.`,
+      answer: `The average cost of solar panels in ${cityName}, ${stateData.abbreviation} is $${stateData.avgCostPerWatt.toFixed(2)} per watt, or approximately ${formatCurrency(stateData.avgSystemCost)} for a typical 6kW residential system before incentives. State and local programs can further reduce this cost.`,
     },
     {
       question: `What is the payback period for solar in ${cityName}?`,
@@ -55,7 +53,7 @@ export default async function SolarPanelCostCityPage({ params }: { params: Promi
     },
     {
       question: `Are there solar incentives available in ${cityName}, ${stateData.name}?`,
-      answer: `Yes, ${cityName} residents can take advantage of the 30% federal Investment Tax Credit (ITC), which reduces your solar system cost by 30%.${stateData.netMetering ? ` ${stateData.name} also offers net metering, allowing you to earn credits for excess solar energy sent back to the grid.` : ` While ${stateData.name} does not have statewide net metering, many local utilities offer buyback programs for excess generation.`}${stateData.srecAvailable ? ` Additionally, Solar Renewable Energy Credits (SRECs) are available in ${stateData.name}, providing extra income from your solar production.` : ''} Check with your local utility in ${cityName} for additional rebates and programs.`,
+      answer: `Yes, ${cityName} residents can take advantage of several state and local solar incentives.${stateData.netMetering ? ` ${stateData.name} offers net metering, allowing you to earn credits for excess solar energy sent back to the grid.` : ` While ${stateData.name} does not have statewide net metering, many local utilities offer buyback programs for excess generation.`}${stateData.srecAvailable ? ` Additionally, Solar Renewable Energy Credits (SRECs) are available in ${stateData.name}, providing extra income from your solar production.` : ''} Check with your local utility in ${cityName} for additional rebates and programs.`,
     },
     {
       question: `What size solar system do I need in ${cityName}?`,
@@ -108,8 +106,7 @@ export default async function SolarPanelCostCityPage({ params }: { params: Promi
               The average solar panel installation in {cityName}, {stateData.abbreviation} costs{' '}
               <strong className="text-gray-900">${stateData.avgCostPerWatt.toFixed(2)} per watt</strong>, or about{' '}
               <strong className="text-gray-900">{formatCurrency(stateData.avgSystemCost)}</strong> for a typical 6kW
-              residential system before the 30% federal tax credit. After the ITC, homeowners in {cityName} can expect
-              to pay approximately <strong className="text-amber-600">{formatCurrency(afterItcCost)}</strong>. Over 25
+              residential system before state and local incentives. Over 25
               years, going solar in {cityName} can save you an estimated{' '}
               <strong className="text-gray-900">{formatCurrency(stateData.avgSavings25Year)}</strong>, with a payback
               period of around <strong className="text-gray-900">{stateData.avgPaybackYears} years</strong>.
@@ -151,7 +148,7 @@ export default async function SolarPanelCostCityPage({ params }: { params: Promi
                 {stateData.electricityRate > 0.16
                   ? `This is above the national average of 16 cents/kWh, making solar an especially smart investment for homeowners in ${cityName}.`
                   : stateData.electricityRate < 0.16
-                    ? `While this is below the national average of 16 cents/kWh, ${cityName} homeowners still benefit from solar thanks to the federal tax credit, state incentives, and rising electricity costs.`
+                    ? `While this is below the national average of 16 cents/kWh, ${cityName} homeowners still benefit from solar thanks to state incentives, net metering, and rising electricity costs.`
                     : `This matches the national average of 16 cents/kWh. Combined with available incentives, solar remains a strong investment in ${cityName}.`}
               </p>
               <p className="mt-3 text-gray-600 leading-relaxed">
