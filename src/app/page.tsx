@@ -33,10 +33,16 @@ export default async function HomePage() {
       <JsonLd data={faqSchema(homepageFAQs)} />
 
       {/* Hero Section */}
-      <section className="relative bg-gray-900 py-20 sm:py-28 lg:py-32">
-        <div className="absolute inset-0 overflow-hidden" aria-hidden="true">
-          <div className="absolute -top-40 right-0 h-[500px] w-[500px] rounded-full bg-amber-500/10 blur-3xl" />
-          <div className="absolute bottom-0 left-0 h-[400px] w-[400px] rounded-full bg-amber-600/5 blur-3xl" />
+      <section className="relative py-20 sm:py-28 lg:py-32">
+        {/* Background image */}
+        <div className="absolute inset-0" aria-hidden="true">
+          <img
+            src="/images/electrum-hero-solar-panels.jpg"
+            alt=""
+            className="h-full w-full object-cover"
+          />
+          {/* Dark blue overlay */}
+          <div className="absolute inset-0 bg-blue-950/70" />
         </div>
 
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
